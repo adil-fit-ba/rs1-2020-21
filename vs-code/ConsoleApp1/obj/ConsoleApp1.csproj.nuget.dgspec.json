@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\tmp\\gitprobalocal6\\vs-code\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\tmp dev3\\rs1-2020-21\\vs-code\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\tmp\\gitprobalocal6\\vs-code\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\tmp dev3\\rs1-2020-21\\vs-code\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tmp\\gitprobalocal6\\vs-code\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\tmp\\gitprobalocal6\\vs-code\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\adil\\.nuget\\packages\\",
-        "outputPath": "C:\\tmp\\gitprobalocal6\\vs-code\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj": {
-                "projectPath": "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj"
+              "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj": {
+                "projectPath": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj"
               }
             }
           }
@@ -63,14 +63,14 @@
         }
       }
     },
-    "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj": {
+    "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj",
+        "projectUniqueName": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj",
         "projectName": "Podaci",
-        "projectPath": "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj",
+        "projectPath": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj",
         "packagesPath": "C:\\Users\\adil\\.nuget\\packages\\",
-        "outputPath": "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\obj\\",
+        "outputPath": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
