@@ -1,0 +1,12 @@
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\bin\Release\netcoreapp3.1\Podaci.deps.json
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\bin\Release\netcoreapp3.1\Podaci.runtimeconfig.json
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\bin\Release\netcoreapp3.1\Podaci.runtimeconfig.dev.json
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\bin\Release\netcoreapp3.1\Podaci.dll
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\bin\Release\netcoreapp3.1\Podaci.pdb
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\obj\Release\netcoreapp3.1\Podaci.csprojAssemblyReference.cache
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\obj\Release\netcoreapp3.1\Podaci.csproj.CoreCompileInputs.cache
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\obj\Release\netcoreapp3.1\Podaci.AssemblyInfoInputs.cache
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\obj\Release\netcoreapp3.1\Podaci.AssemblyInfo.cs
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\obj\Release\netcoreapp3.1\Podaci.dll
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\obj\Release\netcoreapp3.1\Podaci.pdb
+C:\tmp dev1\gitprobalocal6\vs-code\Podaci\obj\Release\netcoreapp3.1\Podaci.genruntimeconfig.cache

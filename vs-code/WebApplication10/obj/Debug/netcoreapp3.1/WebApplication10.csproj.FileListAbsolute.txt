@@ -1,0 +1,767 @@
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.exe
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.deps.json
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.json
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.dev.json
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csprojAssemblyReference.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfoInputs.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfo.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.input.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.output.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorCoreGenerate.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.Manifest.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.xml
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.genruntimeconfig.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CopyComplete
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Prikaz.cshtml.g.cs
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CoreCompileInputs.cache
+C:\Users\adil\source\repos\WebApplication10\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.MvcApplicationPartsAssemblyInfo.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CoreCompileInputs.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.MvcApplicationPartsAssemblyInfo.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfoInputs.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfo.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.input.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.output.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorCoreGenerate.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Prikaz.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.dll
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.json
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.exe
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.deps.json
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.json
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.dev.json
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CopyComplete
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.Manifest.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.xml
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.genruntimeconfig.cache
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.json
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.exe
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.deps.json
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.json
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.dev.json
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\tmp\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csprojAssemblyReference.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CoreCompileInputs.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.MvcApplicationPartsAssemblyInfo.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfoInputs.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfo.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.input.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.output.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorCoreGenerate.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Prikaz.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CopyComplete
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.Manifest.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.xml
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.dll
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.genruntimeconfig.cache
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Poruka.cshtml.g.cs
+C:\tmp\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Uredi.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csprojAssemblyReference.cache
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Poruka.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Uredi.cshtml.g.cs
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Podaci.dll
+C:\rs1_nastava\online nastava\WebApplication10\bin\Debug\netcoreapp3.1\Podaci.pdb
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.json
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.exe
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.deps.json
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.json
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.dev.json
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Podaci.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Podaci.pdb
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csprojAssemblyReference.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CoreCompileInputs.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.MvcApplicationPartsAssemblyInfo.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfoInputs.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfo.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.input.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.output.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorCoreGenerate.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Poruka.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Prikaz.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Uredi.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cs
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CopyComplete
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.Manifest.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.xml
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.dll
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.genruntimeconfig.cache
+C:\tmp dev1\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Detalji.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\appsettings.json
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.exe
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.deps.json
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.json
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.runtimeconfig.dev.json
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Podaci.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\bin\Debug\netcoreapp3.1\Podaci.pdb
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csprojAssemblyReference.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CoreCompileInputs.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.MvcApplicationPartsAssemblyInfo.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorAssemblyInfo.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfoInputs.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.AssemblyInfo.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.input.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.TagHelpers.output.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorCoreGenerate.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Detalji.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Poruka.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Prikaz.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\Student\Uredi.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.RazorTargetAssemblyInfo.cs
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.Views.pdb
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.csproj.CopyComplete
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.Manifest.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\staticwebassets\WebApplication10.StaticWebAssets.xml
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.dll
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.pdb
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\WebApplication10.genruntimeconfig.cache
+C:\tmp\gitprobalocal6\vs-code\WebApplication10\obj\Debug\netcoreapp3.1\Razor\Views\TestniPodaci\Index.cshtml.g.cs

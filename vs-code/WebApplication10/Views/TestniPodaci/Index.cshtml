@@ -1,0 +1,11 @@
+﻿@using WebApplication10.EF
+
+@{
+    ViewData["Title"] = "Index";
+    MojDbContext db = new MojDbContext();
+}
+
+<h1>Index</h1>
+
+Studenti @db.Student.Count() <br/>
+Predmeti @db.Predmet.Count() <br/>
