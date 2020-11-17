@@ -15,6 +15,7 @@ namespace WebApplication10.EF
 
         public DbSet<Ocjene> Ocjene { get; set; }
         public DbSet<Predmet> Predmet { get; set; }
+        public DbSet<PrisustvoNaNastavi> PrisustvoNaNastavi { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

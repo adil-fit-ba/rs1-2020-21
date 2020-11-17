@@ -57,6 +57,19 @@ namespace Podaci
             db.AddRange(Studenti);
 
 
+            int j = 0;
+            foreach (var x in db.Student)
+            {
+                j++;
+                db.PrisustvoNaNastavi.Add(new PrisustvoNaNastavi
+                {
+                    Datum = DateTime.Now,
+                    Predmet = Predmeti[j % 5],
+                    Student = x,
+                });
+            }
+
+
             db.SaveChanges();
         }
     }

@@ -34,3 +34,15 @@ C:\tmp\gitprobalocal6\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.AssemblyInfo
 C:\tmp\gitprobalocal6\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.dll
 C:\tmp\gitprobalocal6\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.pdb
 C:\tmp\gitprobalocal6\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.genruntimeconfig.cache
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\bin\Debug\netcoreapp3.1\Podaci.deps.json
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\bin\Debug\netcoreapp3.1\Podaci.runtimeconfig.json
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\bin\Debug\netcoreapp3.1\Podaci.runtimeconfig.dev.json
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\bin\Debug\netcoreapp3.1\Podaci.dll
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\bin\Debug\netcoreapp3.1\Podaci.pdb
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.csprojAssemblyReference.cache
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.csproj.CoreCompileInputs.cache
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.AssemblyInfoInputs.cache
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.AssemblyInfo.cs
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.dll
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.pdb
+C:\tmp dev3\rs1-2020-21\vs-code\Podaci\obj\Debug\netcoreapp3.1\Podaci.genruntimeconfig.cache
