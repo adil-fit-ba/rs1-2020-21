@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj": {}
+    "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj": {}
   },
   "projects": {
-    "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj": {
+    "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj",
+        "projectUniqueName": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj",
         "projectName": "Podaci",
-        "projectPath": "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\Podaci.csproj",
+        "projectPath": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\Podaci.csproj",
         "packagesPath": "C:\\Users\\adil\\.nuget\\packages\\",
-        "outputPath": "C:\\tmp\\gitprobalocal6\\vs-code\\Podaci\\obj\\",
+        "outputPath": "C:\\tmp dev3\\rs1-2020-21\\vs-code\\Podaci\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
