@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Uredi";
+}
+@model StudentOcjenaUrediVM
+<h1>Uredi</h1>
+
+<form id="OcjenaForma" >
+    <input type="hidden" asp-for="OcjenaID"/>
+    
+    Student
+    <input asp-for="ImeStudent" disabled/>
+    
+    Naziv predmeta
+    <input asp-for="NazivPredmet" disabled/>
+
+    BrojcanaOcjena
+    <input asp-for="Ocjena"/>
+    
+    <input type="button" value="Snimi" class="btn btn-danger" onclick="SnimiOcjenu()"/>
+</form>

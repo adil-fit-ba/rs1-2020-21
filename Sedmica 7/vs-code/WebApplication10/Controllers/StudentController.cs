@@ -35,20 +35,6 @@ namespace WebApplication10.Controllers
             return View(m);
         }
 
-        public IActionResult Detalji(int StudentID)
-        {
-         
-            var m= db.Ocjene.Where(s=>s.StudentID == StudentID)
-                .Select(s=>new StudentDetaljiVM
-                {
-                    BrojcanaOcjena = s.OcjenaBrojacna,
-                    Datum = s.Datum,
-                    NazivPredmeta = s.Predmet.Naziv
-                })
-                .ToList();
-
-            return View(m);
-        }
 
         //public IActionResult Snimi(int studentID, string Imeee, string Prezime, int OpstinaRodjenjaID, int OpstinaPrebivalistaID)
         public IActionResult Snimi(StudentDodajVM x)

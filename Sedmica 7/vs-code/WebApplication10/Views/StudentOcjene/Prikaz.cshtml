@@ -1,11 +1,11 @@
 ﻿@using WebApplication10.EF
 @using WebApplication10.EntityModels
 
-@model List< StudentDetaljiVM>
+@model List< StudentOcjenePrikazVM>
 
 @{
     ViewData["Title"] = "Prikaz";
-    
+    Layout = null;
 }
 
 
@@ -15,16 +15,21 @@
         <th>Naziv predmeta</th>
         <th>Ocjena</th>
         <th>Datum</th>
+        <th>Akcija</th>
     </tr>
     </thead>
     <tbody>
 
-    @foreach (StudentDetaljiVM s in Model)
+    @foreach (StudentOcjenePrikazVM s in Model)
     {
         <tr>
             <td>@s.NazivPredmeta</td>
             <td>@s.BrojcanaOcjena</td>
             <td>@s.Datum.ToString("dd.MM.yyyy")</td>
+            <td>
+                <a href="/StudentOcjene/Prikaz">Uredi</a>
+                <button onclick="OtvoriFormuUredi(@s.OcjenaID)">Uredi</button>
+            </td>
         </tr>
     }
 
@@ -34,3 +39,6 @@
 
 </table>
 
+<script>
+ 
+</script>

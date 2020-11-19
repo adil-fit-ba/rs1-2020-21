@@ -81,7 +81,7 @@
 
      //   alert("ID studenta je " + StudentID);
 
-        var url = "/Student/Detalji?StudentID=" + StudentID;
+        var url = "/StudentOcjene/Prikaz?StudentID=" + StudentID;
 
         //var xhttp = new XMLHttpRequest();
         //xhttp.onreadystatechange = function() {
@@ -109,5 +109,34 @@
         zahtjev.send();
     }
 
+
+    function OtvoriFormuUredi(OcjenaID) {
+
+        var url = "/StudentOcjene/Uredi?OcjenaID=" + OcjenaID;
+
+        $.get(url, function(d) {
+
+            $("#ajaxPrikaz").html(d);
+        });
+    }
+
+
+    function SnimiOcjenu() {
+        var form = $("#OcjenaForma");
+
+        var url = "/StudentOcjene/Snimi";
+
+
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: form.serialize(),
+            success: function (data) {
+                $("#ajaxPrikaz").html(data);
+            }
+        });
+
+        alert("Uspjeno snimljeno");
+    }
 </script>
 
