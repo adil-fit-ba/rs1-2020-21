@@ -1,0 +1,113 @@
+﻿@using WebApplication10.EF
+@using WebApplication10.EntityModels
+
+@model StudentPrikazVM
+
+@{
+    ViewData["Title"] = "Prikaz";
+ //  Layout = null;
+}
+
+
+<h1>Prikaz</h1>
+
+<button type="button" onclick="window.location='/Student/Uredi'" class="btn btn-primary">Dodaj JS</button>
+<a href="/Student/Uredi" class="btn btn-primary">Dodaj HTML</a>
+
+<form>
+    <input name="q" value="@Model.q"/>
+    <input type="submit" value="Trazi" />
+</form>
+
+
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>BrojIndeksa</th>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>OpstinaPrebivalista</th>
+        <th>OpstinaRodjenja</th>
+        <th>Akcija</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    @foreach (StudentPrikazVM.Row s in Model.studenti)
+    {
+        <tr>
+            <td>@s.ID</td>
+            <td>@s.BrojIndeksa</td>
+            <td>@s.Ime</td>
+            <td>@s.Prezime</td>
+            <td>@s.OpstinaRodjenja</td>
+            <td>@s.OpstinaPrebivalista</td>
+            <td>
+                <a href="/Student/Uredi?StudentID=@s.ID">Uredi</a>
+                <a href="/Student/Obrisi?StudentID=@s.ID">Obrisi</a>
+                <a href="#" onclick="PrikaziDetalje(@s.ID)">Detalji1</a>
+                <button onclick="PrikaziDetalje(@s.ID)">Detalji2</button>
+                <button onclick="PrisutvoNaNastvi(@s.ID)">PrisutvoNaNastvi</button>
+            </td>
+        </tr>
+    }
+
+
+    </tbody>
+
+
+</table>
+
+<div id="ajaxPrikaz" style="border: 1px solid red">
+    Aaa test
+</div>
+
+
+<script>
+    function PrisutvoNaNastvi(StudentID) {
+
+        var url = "/Student/PrisustvoNaNastavi?StudentID=" + StudentID;
+
+        $.get(url, function(d) {
+
+           // alert(d);
+            $("#ajaxPrikaz").html(d);
+        });
+
+    }
+    function PrikaziDetalje(StudentID) {
+
+     //   alert("ID studenta je " + StudentID);
+
+        var url = "/Student/Detalji?StudentID=" + StudentID;
+
+        //var xhttp = new XMLHttpRequest();
+        //xhttp.onreadystatechange = function() {
+        //    if (this.readyState == 4 && this.status == 200) {
+        //        // Typical action to be performed when the document is ready:
+        //        document.getElementById("demo").innerHTML = xhttp.responseText;
+        //    }
+        //};
+        //xhttp.open("GET", "filename", true);
+        //xhttp.send();
+
+
+        var zahtjev = new XMLHttpRequest();
+        zahtjev.onload = function () {
+            if (zahtjev.status === 200) {
+                document.getElementById("ajaxPrikaz").innerHTML =  zahtjev.responseText;
+            } else {
+
+            }
+        };
+
+        zahtjev.open("GET", url, true);
+       // zahtjev.setRequestHeader("Content-Type", "application/json");
+       // zahtjev.setRequestHeader("MojAutentifikacijaToken", getMojToken());
+        zahtjev.send();
+    }
+
+</script>
+
