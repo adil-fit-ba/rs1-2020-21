@@ -47,7 +47,7 @@
             <td>
                 <a href="/Student/Uredi?StudentID=@s.ID">Uredi</a>
                 <a href="/Student/Obrisi?StudentID=@s.ID">Obrisi</a>
-                <button onclick="Ocjene(@s.ID)">Ocjene</button>
+                <button onclick="OcjenePrikaz(@s.ID)">Ocjene</button>
                 <button onclick="PrisutvoNaNastaviPrikaz(@s.ID)">PrisutvoNaNastvi</button>
             </td>
         </tr>
@@ -80,7 +80,7 @@
 
     }
 
-    function Ocjene(StudentID) {
+    function OcjenePrikaz(StudentID) {
 
         var url = "/Ocjene/Prikaz?StudentID=" + StudentID;
       
@@ -98,7 +98,7 @@
     }
 
 
-    function OtvoriFormuUredi(OcjenaID) {
+    function OcjeneUredi(OcjenaID) {
 
         var url = "/Ocjene/Uredi?OcjenaID=" + OcjenaID;
 
@@ -109,7 +109,7 @@
     }
 
 
-    function SnimiOcjenu() {
+    function OcjeneSnimi() {
         var form = $("#OcjenaForma");
         var url = "/Ocjene/Snimi";
         $.ajax({

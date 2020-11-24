@@ -3,7 +3,7 @@
     ViewData["Title"] = "Uredi";
 }
 @model WebApplication10.Models.WebApplication10.Models.OcjenaUrediVm
-<h1>Uredi</h1>
+<h1>Uređivanje ocjene </h1>
 
 <form id="OcjenaForma" >
     <input type="hidden" asp-for="OcjenaID"/>
@@ -17,5 +17,5 @@
     BrojcanaOcjena
     <input asp-for="Ocjena"/>
     
-    <input type="button" value="Snimi" class="btn btn-danger" onclick="SnimiOcjenu()"/>
+    <input type="button" value="Snimi" class="btn btn-danger" onclick="OcjeneSnimi()"/>
 </form>
