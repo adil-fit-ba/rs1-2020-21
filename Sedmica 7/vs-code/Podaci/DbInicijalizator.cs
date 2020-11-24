@@ -8,12 +8,24 @@ using WebApplication10.EntityModels;
 
 namespace Podaci
 {
+    public static class Ext
+    {
+        public static T GetRandomElement<T>(this List<T> list)
+        {
+            int x = new Random().Next(0, list.Count);
+            return list[x];
+        }
+    }
     public class DbInicijalizator
     {
         public static string GetRandomString(int lenght=3)
         {
             return Guid.NewGuid().ToString().Substring(0, lenght);
     }
+
+       
+
+
         public static void Generisi()
         {
             MojDbContext db = new MojDbContext();
@@ -36,8 +48,8 @@ namespace Podaci
                     BrojIndeksa = GetRandomString(5),
                     Ime = GetRandomString(4),
                     Prezime = GetRandomString(4),
-                    OpstinaPrebivalista = Opstine[i%5],
-                    OpstinaRodjenja = Opstine[i%5],
+                    OpstinaPrebivalista = Opstine.GetRandomElement(),
+                    OpstinaRodjenja = Opstine.GetRandomElement(),
                 });
             }
 
@@ -47,8 +59,8 @@ namespace Podaci
                 {
                     Datum = DateTime.Now,
                     OcjenaBrojacna = (i % 5) + 6,
-                    Predmet = Predmeti[i % 4],
-                    Student = Studenti[i % 20]
+                    Predmet = Predmeti.GetRandomElement(),
+                    Student = Studenti.GetRandomElement()
                 });
             }
 
@@ -64,7 +76,7 @@ namespace Podaci
                 db.PrisustvoNaNastavi.Add(new PrisustvoNaNastavi
                 {
                     Datum = DateTime.Now,
-                    Predmet = Predmeti[j % 5],
+                    Predmet = Predmeti.GetRandomElement(),
                     Student = x,
                 });
             }

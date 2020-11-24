@@ -13,5 +13,8 @@ namespace Podaci.EntityModels
         public int PredmetID { get; set; }
         public Predmet Predmet { get; set; }
         public DateTime Datum{ get; set; }
+        public bool IsPrisutan { get; set; }             
+        public string Komentar { get; set; }             
+
     }
 }

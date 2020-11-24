@@ -5,12 +5,11 @@ using System.Threading.Tasks;
 
 namespace WebApplication10.Models
 {
-    public class StudentOcjenaUrediVM
+    public class OcjenePrikazVM
     {
         public int OcjenaID { get; set; }
-
-        public string ImeStudent { get; set; }
-        public string NazivPredmet { get; set; }
-        public int Ocjena { get; set; }
+        public string NazivPredmeta { get; set; }
+        public int BrojcanaOcjena{ get; set; }
+        public DateTime Datum{ get; set; }
     }
 }

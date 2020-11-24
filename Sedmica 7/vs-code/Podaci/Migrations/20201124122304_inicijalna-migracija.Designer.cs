@@ -10,8 +10,8 @@ using WebApplication10.EF;
 namespace Podaci.Migrations
 {
     [DbContext(typeof(MojDbContext))]
-    [Migration("20201112120144_ocjene")]
-    partial class ocjene
+    [Migration("20201124122304_inicijalna-migracija")]
+    partial class inicijalnamigracija
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -47,6 +47,37 @@ namespace Podaci.Migrations
                     b.HasIndex("StudentID");
 
                     b.ToTable("Ocjene");
+                });
+
+            modelBuilder.Entity("Podaci.EntityModels.PrisustvoNaNastavi", b =>
+                {
+                    b.Property<int>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("Datum")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsPrisutan")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Komentar")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("PredmetID")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StudentID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("PredmetID");
+
+                    b.HasIndex("StudentID");
+
+                    b.ToTable("PrisustvoNaNastavi");
                 });
 
             modelBuilder.Entity("WebApplication10.EntityModels.Opstina", b =>
@@ -111,6 +142,21 @@ namespace Podaci.Migrations
                 });
 
             modelBuilder.Entity("Podaci.EntityModels.Ocjene", b =>
+                {
+                    b.HasOne("WebApplication10.EntityModels.Predmet", "Predmet")
+                        .WithMany()
+                        .HasForeignKey("PredmetID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("WebApplication10.EntityModels.Student", "Student")
+                        .WithMany()
+                        .HasForeignKey("StudentID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Podaci.EntityModels.PrisustvoNaNastavi", b =>
                 {
                     b.HasOne("WebApplication10.EntityModels.Predmet", "Predmet")
                         .WithMany()

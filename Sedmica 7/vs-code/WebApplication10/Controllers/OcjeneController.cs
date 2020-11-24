@@ -6,16 +6,18 @@ using Microsoft.AspNetCore.Mvc;
 using Podaci.EntityModels;
 using WebApplication10.EF;
 using WebApplication10.Models;
+using WebApplication10.Models.WebApplication10.Models;
 
 namespace WebApplication10.Controllers
 {
-    public class StudentOcjeneController : Controller
+    public class OcjeneController : Controller
     {
         MojDbContext db = new MojDbContext();
+
         public IActionResult Prikaz(int StudentID)
         {
             var m = db.Ocjene.Where(s => s.StudentID == StudentID)
-                .Select(s => new StudentOcjenePrikazVM
+                .Select(s => new OcjenePrikazVM
                 {
                     OcjenaID = s.ID,
                     BrojcanaOcjena = s.OcjenaBrojacna,
@@ -27,30 +29,32 @@ namespace WebApplication10.Controllers
             return View(m);
         }
 
+
         public IActionResult Uredi(int OcjenaID)
         {
-            StudentOcjenaUrediVM m = db.Ocjene
-                .Where(s=>s.ID== OcjenaID)
-                .Select(ocjene=>new StudentOcjenaUrediVM
-            {
-                     NazivPredmet = ocjene.Predmet.Naziv,
-                     ImeStudent = ocjene.Student.Ime + " " + ocjene.Student.Prezime,
-                Ocjena = ocjene.OcjenaBrojacna,
-                OcjenaID = ocjene.ID
-            }).Single();
-           
+            OcjenaUrediVm m = db.Ocjene
+                .Where(s => s.ID == OcjenaID)
+                .Select(ocjene => new OcjenaUrediVm
+                {
+                    NazivPredmet = ocjene.Predmet.Naziv,
+                    ImeStudent = ocjene.Student.Ime + " " + ocjene.Student.Prezime,
+                    Ocjena = ocjene.OcjenaBrojacna,
+                    OcjenaID = ocjene.ID
+                }).Single();
+
 
             return View(m);
         }
 
-        public IActionResult Snimi(StudentOcjenaUrediVM x)
+        public IActionResult Snimi(OcjenaUrediVm x)
         {
             Ocjene ocjene = db.Ocjene.Find(x.OcjenaID);
             ocjene.OcjenaBrojacna = x.Ocjena;
             db.SaveChanges();
 
-        //    return RedirectToAction("Prikaz", new { StudentID=ocjene.StudentID });
-        return Redirect("/StudentOcjene/Prikaz?StudentID=" + ocjene.StudentID);
+            //    return RedirectToAction("Prikaz", new { StudentID=ocjene.StudentID });
+            return Redirect("/Ocjene/Prikaz?StudentID=" + ocjene.StudentID);
+
         }
     }
 }
