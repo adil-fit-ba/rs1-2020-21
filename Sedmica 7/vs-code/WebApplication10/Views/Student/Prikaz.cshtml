@@ -76,8 +76,27 @@
     }
     function PrisutvoNaNastaviUredi(PrisustvoNaNastaviID) {
 
-        alert("Potrebno implementirati. PrisustvoNaNastaviID = " + PrisustvoNaNastaviID);
+        var url = "/PrisustvoNaNastavi/Uredi?PrisustvoNaNastaviID=" + PrisustvoNaNastaviID;
 
+        $.get(url, function(d) {
+
+            $("#ajaxPrikaz").html(d);
+        });
+
+    }
+
+    function PrisutvoNaNastaviSnimi() {
+        var form = $("#PrisustvoForma");
+        var url = "/PrisustvoNaNastavi/Snimi";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: form.serialize(),
+            success: function (data) {
+                $("#ajaxPrikaz").html(data);
+            }
+        });
+        alert("Uspjeno snimljeno");
     }
 
     function OcjenePrikaz(StudentID) {

@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Podaci.EntityModels;
 using WebApplication10.EF;
 using WebApplication10.EntityModels;
 using WebApplication10.Models;
+using WebApplication10.Models.WebApplication10.Models;
 
 namespace WebApplication10.Controllers
 {
@@ -36,5 +38,35 @@ namespace WebApplication10.Controllers
             return View(m);
         }
 
+
+        public IActionResult Uredi(int PrisustvoNaNastaviID)
+        {
+            PrisustvoNaNastaviUrediVm m = db.PrisustvoNaNastavi
+                .Where(s => s.ID == PrisustvoNaNastaviID)
+                .Select(x => new PrisustvoNaNastaviUrediVm
+                {
+                    NazivPredmet = x.Predmet.Naziv,
+                    ImeStudent = x.Student.Ime + " " + x.Student.Prezime,
+                    komentar = x.Komentar,
+                    IsPrisutan = x.IsPrisutan,
+                    Datum = x.Datum,
+                    PrisustvoNaNastaviID = x.ID
+                }).Single();
+
+
+            return View(m);
+        }
+
+        public IActionResult Snimi(PrisustvoNaNastaviUrediVm x)
+        {
+            var prisustvoNaNastavi = db.PrisustvoNaNastavi.Find(x.PrisustvoNaNastaviID);
+            prisustvoNaNastavi.IsPrisutan = x.IsPrisutan;
+            prisustvoNaNastavi.Komentar = x.komentar;
+            db.SaveChanges();
+
+            //    return RedirectToAction("Prikaz", new { StudentID=ocjene.StudentID });
+            return Redirect("/PrisustvoNaNastavi/Prikaz?StudentID=" + prisustvoNaNastavi.StudentID);
+
+        }
     }
 }
