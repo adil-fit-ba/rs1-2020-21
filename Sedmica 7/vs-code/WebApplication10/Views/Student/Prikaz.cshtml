@@ -48,7 +48,7 @@
                 <a href="/Student/Uredi?StudentID=@s.ID">Uredi</a>
                 <a href="/Student/Obrisi?StudentID=@s.ID">Obrisi</a>
                 <button onclick="Ocjene(@s.ID)">Ocjene</button>
-                <button onclick="PrisutvoNaNastvi(@s.ID)">PrisutvoNaNastvi</button>
+                <button onclick="PrisutvoNaNastaviPrikaz(@s.ID)">PrisutvoNaNastvi</button>
             </td>
         </tr>
     }
@@ -65,15 +65,21 @@
 
 
 <script>
-    function PrisutvoNaNastvi(StudentID) {
+    function PrisutvoNaNastaviPrikaz(StudentID) {
 
-        var url = "/Student/PrisustvoNaNastavi?StudentID=" + StudentID;
+        var url = "/PrisustvoNaNastavi/Prikaz?StudentID=" + StudentID;
 
         $.get(url, function(d) {
             $("#ajaxPrikaz").html(d);
         });
 
     }
+    function PrisutvoNaNastaviUredi(PrisustvoNaNastaviID) {
+
+        alert("Potrebno implementirati. PrisustvoNaNastaviID = " + PrisustvoNaNastaviID);
+
+    }
+
     function Ocjene(StudentID) {
 
         var url = "/Ocjene/Prikaz?StudentID=" + StudentID;

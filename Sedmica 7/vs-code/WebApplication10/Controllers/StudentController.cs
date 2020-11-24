@@ -16,25 +16,7 @@ namespace WebApplication10.Controllers
     {
         private MojDbContext db = new MojDbContext();
 
-        public IActionResult PrisustvoNaNastavi(int StudentID)
-        {
-            var m = new StudentPrisustvnoNaNastaviVM();
-
-
-            Student q = db.Student.Find(StudentID);
-            m.ImeStudenta = q.Ime + " " + q.Prezime;
-
-            m.Zapisi = db.PrisustvoNaNastavi.Where(s => s.StudentID == StudentID)
-                .Select(s => new StudentPrisustvnoNaNastaviVM.Zapis
-                {
-                    Datum = s.Datum,
-                    Predmet = s.Predmet.Naziv
-                })
-                .ToList();
-
-            return View(m);
-        }
-
+      
 
         //public IActionResult Snimi(int studentID, string Imeee, string Prezime, int OpstinaRodjenjaID, int OpstinaPrebivalistaID)
         public IActionResult Snimi(StudentDodajVM x)
