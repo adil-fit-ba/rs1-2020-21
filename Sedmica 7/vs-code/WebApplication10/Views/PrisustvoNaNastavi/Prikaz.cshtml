@@ -6,7 +6,7 @@
 @{
     Layout = null;
 }
-@model PrisustvnoNaNastaviPrikazVM
+@model PrisustvoNaNastaviPrikazVM
 Ime studenta 
 @Model.ImeStudenta
 
@@ -18,9 +18,7 @@ Ime studenta
     <tr>
         <th>Predmet</th>
         <th>Datum</th>
-        <th>Prisutan</th>
-        <th>Komentar</th>
-        <th>Akcija</th>
+        
     </tr>
     </thead>
     
@@ -30,12 +28,8 @@ Ime studenta
         <tr>
             <td>@x.Predmet</td>
             <td>@x.Datum</td>
-            <td>@(x.IsPrisutan?"DA":"NE")</td>
-            <td>@x.Komentar</td>
-            <td>
-                <button onclick="PrisutvoNaNastaviUredi(@x.PrisustvoNaNastaviID)" class="btn btn-warning">Uredi</button>
-
-            </td>
+       
+          
         </tr>
     }
     </tbody>
