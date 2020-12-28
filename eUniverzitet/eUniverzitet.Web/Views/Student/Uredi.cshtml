@@ -7,7 +7,7 @@
 }
 
  
-<form asp-action="Snimi" asp-controller="Student">
+<form asp-action="Snimi" asp-controller="Student"  enctype="multipart/form-data">
 
     <div style="display: none">
         <label>Student ID</label>
@@ -15,37 +15,66 @@
         <input readonly asp-for="ID" />
     </div>
 
-    <div>
+    <div class="form-group">
         <label>Email</label>
-        <input asp-for="Email" />
+        <input class="form-control" asp-for="Email" />
     </div>
 
-    <div>
+    <div class="form-group">
         <label>Ime</label>
         @*<input name="Ime" value="@Model.Ime"/>*@
-        <input asp-for="Ime" />
+        <input class="form-control" asp-for="Ime" />
     </div>
 
-    <div>
+    <div class="form-group">
         <label>Prezime</label>
-        @*<input name="Prezime" value="@Model.Prezime"/>*@
-        <input asp-for="Prezime" />
+        <input class="form-control" asp-for="Prezime" />
     </div>
 
 
-    <div>
+    <div class="form-group">
         <label>OpstinaRodjenjaID</label>
-        <select asp-for="OpstinaRodjenjaID" asp-items="Model.opstine">
+        <select class="form-control" asp-for="OpstinaRodjenjaID" asp-items="Model.opstine">
         </select>
     </div>
 
 
-    <div>
+    <div class="form-group">
         <label>OpstinaPrebivalistaID</label>
-        <select asp-for="OpstinaPrebivalistaID" asp-items="Model.opstine">
+        <select class="form-control" asp-for="OpstinaPrebivalistaID" asp-items="Model.opstine">
         </select>
     </div>
+    
+    <div class="form-group">
+        <label>Trenutna slika studenta</label>
+        <img id="previewImg" style="height: 200px; display: block" src="/uploads/@Model.SlikaStudentaCurrent" />
+    </div>
+    
+    <div class="form-group">
+        <label>Odabei novu sliku studenta</label>
+        <input class="form-control" asp-for="SlikaStudentaNew" accept="image/*" onchange="generisiPreview(this)"/>
+    </div>
 
-    <input type="submit" value="Snimi" />
+    <input type="submit" class="form-control" value="Snimi" />
 
 </form>
+
+<script>
+
+    function generisiPreview(input) {
+        var file = input.files[0];
+ 
+        if (file)
+        {
+            var reader = new FileReader();
+ 
+            reader.onload = function ()
+            {
+                $("#previewImg").attr("src", reader.result);
+            }
+ 
+            reader.readAsDataURL(file);
+        }
+    }
+
+</script>

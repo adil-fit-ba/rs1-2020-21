@@ -18,5 +18,6 @@ namespace eUniverzitet.Shared.EntityModels
 
         public string KorisnikID { get; set; }
         public Korisnik Korisnik { get; set; }
+        public string SlikaStudenta { get; set; }
     }
 }

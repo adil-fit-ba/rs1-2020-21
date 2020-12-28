@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using eUniverzitet.Shared.Data;
 using eUniverzitet.Shared.EntityModels;
@@ -8,6 +10,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Hosting.Internal;
 
 namespace eUniverzitet.Web.Controllers
 {
@@ -52,6 +55,19 @@ namespace eUniverzitet.Web.Controllers
             student.Korisnik.Prezime = x.Prezime;
             student.OpstinaPrebivalistaID = x.OpstinaPrebivalistaID;
             student.OpstinaRodjenjaID = x.OpstinaRodjenjaID;
+
+
+            if (x.SlikaStudentaNew != null)
+            {
+                string ekstenzija = Path.GetExtension(x.SlikaStudentaNew.FileName);
+                string contentType = x.SlikaStudentaNew.ContentType;
+
+                var filename = $"{Guid.NewGuid()}{ekstenzija}";
+                x.SlikaStudentaNew.CopyTo(new FileStream("wwwroot/uploads/" + filename, FileMode.Create));
+                student.SlikaStudenta = filename;
+            }
+
+           
 
             if (x.ID == 0)
                 _ = _userManager.CreateAsync(student.Korisnik, "Test.2020").Result;
@@ -111,6 +127,7 @@ namespace eUniverzitet.Web.Controllers
                         Email = a.Korisnik.Email,
                         OpstinaPrebivalistaID = a.OpstinaPrebivalistaID,
                         OpstinaRodjenjaID = a.OpstinaRodjenjaID,
+                        SlikaStudentaCurrent = a.SlikaStudenta
                         //opstine = opstine
                     }).Single();
 

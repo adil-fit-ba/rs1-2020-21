@@ -14,17 +14,16 @@ namespace eUniverzitet.Shared.Data
             return list[x];
         }
     }
+
     public class DbInicijalizator
     {
-        public static string GetRandomString(int lenght=3)
+        public static string GetRandomString(int lenght = 3)
         {
             return Guid.NewGuid().ToString().Substring(0, lenght);
-    }
+        }
 
-       
-
-
-        public static async System.Threading.Tasks.Task Generisi(ApplicationDbContext db, UserManager<Korisnik> _userManager)
+        public static async System.Threading.Tasks.Task Generisi(ApplicationDbContext db,
+            UserManager<Korisnik> _userManager)
         {
 
             var Opstine = new List<Opstina>();
@@ -34,20 +33,20 @@ namespace eUniverzitet.Shared.Data
 
             for (int i = 0; i < 5; i++)
             {
-                Opstine.Add(new Opstina { Naziv = "Opstina" + GetRandomString() });
-                Predmeti.Add(new Predmet { Naziv = "Predmet" + GetRandomString() });
-            
+                Opstine.Add(new Opstina {Naziv = "Opstina" + GetRandomString()});
+                Predmeti.Add(new Predmet {Naziv = "Predmet" + GetRandomString()});
+
             }
 
             for (int i = 0; i < 20; i++)
             {
-                string email = "mail"+GetRandomString(3)+"@fit.ba";
+                string email = "mail" + GetRandomString(3) + "@fit.ba";
                 Korisnik korisnik = new Korisnik
                 {
                     Ime = GetRandomString(4),
                     Prezime = GetRandomString(4),
-                    Email = email  ,
-                    UserName = email         ,
+                    Email = email,
+                    UserName = email,
                     EmailConfirmed = true
                 };
 
@@ -61,8 +60,8 @@ namespace eUniverzitet.Shared.Data
 
                         OpstinaPrebivalista = Opstine.GetRandomElement(),
                         OpstinaRodjenja = Opstine.GetRandomElement(),
-                        Korisnik = korisnik  ,
-                        
+                        Korisnik = korisnik,
+
                     });
                 }
             }

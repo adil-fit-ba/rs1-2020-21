@@ -58,7 +58,7 @@ namespace eUniverzitet.Web.Helper
             Korisnik k = db.Korisnik.Where(s => s.Id == userId)
             .Include(s => s.Nastavnik)
             .Include(s => s.Student)
-            .Single();
+            .SingleOrDefault();
 
             //  Korisnik k = userManager.GetUserAsync(filterContext.HttpContext.User).Result;
 

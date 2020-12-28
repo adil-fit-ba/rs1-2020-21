@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace eUniverzitet.Web.Models
@@ -15,5 +16,7 @@ namespace eUniverzitet.Web.Models
         public string Email { get; set; }
         public string Prezime { get; set; }
         public int OpstinaPrebivalistaID { get; set; }
+        public IFormFile SlikaStudentaNew { set; get; }
+        public string SlikaStudentaCurrent { get; set; }
     }
 }
