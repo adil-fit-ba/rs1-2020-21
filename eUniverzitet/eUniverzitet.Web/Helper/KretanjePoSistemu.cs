@@ -5,8 +5,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using eUniverzitet.Shared.Data;
 using eUniverzitet.Shared.EntityModels;
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.AspNetCore.Http.Features;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -14,14 +17,18 @@ namespace eUniverzitet.Web.Helper
 {
     public class KretanjePoSistemu
     {
-        public static void Save(Korisnik korisnik, ActionExecutingContext filterContext)
+        public static int Save(HttpContext httpContext, IExceptionHandlerPathFeature exceptionMessage=null)
         {
-            var request = filterContext.HttpContext.Request;
+            UserManager<Korisnik> userManager = httpContext.RequestServices.GetService<UserManager<Korisnik>>();
+            Korisnik korisnik = httpContext.User==null?null:userManager.GetUserAsync(httpContext.User).Result;
+
+
+            var request = httpContext.Request;
 
             var queryString = request.Query;
 
             if (queryString.Count == 0 && !request.HasFormContentType)
-                return;
+                return 0;
 
             //IHttpRequestFeature feature = request.HttpContext.Features.Get<IHttpRequestFeature>();
             string detalji = "";
@@ -40,19 +47,26 @@ namespace eUniverzitet.Web.Helper
                 QueryPath = request.GetEncodedPathAndQuery(),
                 PostData = detalji,
                 IpAdresa = request.HttpContext.Connection.RemoteIpAddress.ToString(),
+    
             };
 
+            if (exceptionMessage != null)
+            {
+                x.isException = true;
+                x.exceptionMessage = exceptionMessage.Error.Message + " |" + exceptionMessage.Error.InnerException;
+            }
+      
 
-            ApplicationDbContext db = filterContext.HttpContext.RequestServices.GetService<ApplicationDbContext>();
+            ApplicationDbContext db = httpContext.RequestServices.GetService<ApplicationDbContext>();
 
             db.Add(x);
             db.SaveChanges();
 
+            return x.ID;
         }
 
-        private static void SnimiLog(Korisnik korisnik, string detalji)
-        {
-            //Snimi Log u DB ili File sistem
-        }
+
+       
+       
     }
 }

@@ -1,22 +1,39 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using eUniverzitet.Shared.Data;
 using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.Web.Helper;
 using eUniverzitet.Web.SignalR;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Newtonsoft.Json;
 
 namespace eUniverzitet.Web
 {
+    public class ErrorDetails
+    {
+        public int StatusCode { get; set; }
+        public string Message { get; set; }
+
+
+        public override string ToString()
+        {
+            return JsonConvert.SerializeObject(this); //JsonConvert is part of Newtonsoft.Json package.
+        }
+    }
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
@@ -44,8 +61,22 @@ namespace eUniverzitet.Web
         {
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
-                app.UseDatabaseErrorPage();
+                //app.UseDeveloperExceptionPage();
+                //app.UseDatabaseErrorPage();
+
+                app.UseExceptionHandler(appError =>
+                {
+                    appError.Run(async context =>
+                    {
+                        context.Response.StatusCode = (int)HttpStatusCode.InternalServerError;
+                        var exceptionHandler = context.Features.Get<IExceptionHandlerPathFeature>();
+                        if (exceptionHandler != null)
+                        {
+                            int bugId = KretanjePoSistemu.Save(context, exceptionHandler);
+                            await context.Response.WriteAsync($"Greska br {bugId}. Kontaktirajte administratora. ");
+                        }
+                    });
+                });
             }
             else
             {

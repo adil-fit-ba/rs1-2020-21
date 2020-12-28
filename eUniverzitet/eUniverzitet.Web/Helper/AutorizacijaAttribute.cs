@@ -66,13 +66,13 @@ namespace eUniverzitet.Web.Helper
             {
                 if (filterContext.Controller is Controller controller)
                 {
-                    controller.TempData["error_poruka"] = "Niste logirani";
+                    controller.TempData["PorukaError"] = "Niste logirani";
                 }
                 filterContext.Result = new RedirectResult( "/");
                 return;
             }
 
-            KretanjePoSistemu.Save(k, filterContext);
+            KretanjePoSistemu.Save(filterContext.HttpContext);
 
             //studenti mogu pristupiti 
             if (_ucenik && k.Student != null)
@@ -88,7 +88,7 @@ namespace eUniverzitet.Web.Helper
 
             if (filterContext.Controller is Controller c1)
             {
-                c1.ViewData["error_poruka"] = "Nemate pravo pristupa";
+                c1.ViewData["PorukaError"] = "Nemate pravo pristupa";
             }
             filterContext.Result = new RedirectResult("/Identity/Account/Login");
         }

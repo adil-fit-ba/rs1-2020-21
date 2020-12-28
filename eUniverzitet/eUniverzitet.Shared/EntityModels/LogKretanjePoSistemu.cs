@@ -13,5 +13,7 @@ namespace eUniverzitet.Shared.EntityModels
         public string PostData { get; set; }
         public DateTime Vrijeme { get; set; }
         public string IpAdresa { get; set; }
+        public string exceptionMessage { get; set; }
+        public bool isException { get; set; }
     }
 }
