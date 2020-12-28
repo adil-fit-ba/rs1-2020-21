@@ -1,0 +1,38 @@
+﻿@using eUniverzitet.Web.Models
+@model List<OcjenePrikazVM>
+
+@{
+    ViewData["Title"] = "Prikaz";
+    Layout = null;
+}
+    <h1>Prikaz ocjena</h1>
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>Naziv predmeta</th>
+        <th>Ocjena</th>
+        <th>Datum</th>
+        <th>Akcija</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    @foreach (OcjenePrikazVM s in Model)
+    {
+        <tr>
+            <td>@s.NazivPredmeta</td>
+            <td>@s.BrojcanaOcjena</td>
+            <td>@s.Datum.ToString("dd.MM.yyyy")</td>
+            <td>
+                <button onclick="OcjeneUredi(@s.OcjenaID)">Uredi</button>
+            </td>
+        </tr>
+    }
+
+
+    </tbody>
+
+
+</table>
+

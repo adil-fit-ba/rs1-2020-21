@@ -1,0 +1,19 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+@model eUniverzitet.Shared.Data.ApplicationDbContext
+<h1>Index</h1>
+
+Studenti @Model.Student.Count()
+<br />
+
+Predmeti @Model.Predmet.Count()
+<br />
+
+Ocjene @Model.Ocjene.Count()
+<br />
+
+PrisustvoNaNastavi 
+@Model.PrisustvoNaNastavi.Count()
+<br />

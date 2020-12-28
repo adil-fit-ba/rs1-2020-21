@@ -1,0 +1,22 @@
+﻿
+@{
+    ViewData["Title"] = "Uredi";
+    Layout = null;
+}
+@model eUniverzitet.Web.Models.OcjenaUrediVm
+<h1>Uređivanje ocjene </h1>
+
+<form id="OcjenaForma" >
+    <input type="hidden" asp-for="OcjenaID"/>
+    
+    Student
+    <input asp-for="ImeStudent" disabled/><br />
+    
+    Naziv predmeta
+    <input asp-for="NazivPredmet" disabled/><br />
+
+    BrojcanaOcjena
+    <input asp-for="Ocjena"/><br />
+    
+    <input type="button" value="Snimi" class="btn btn-danger" onclick="OcjeneSnimi()"/>
+</form>
