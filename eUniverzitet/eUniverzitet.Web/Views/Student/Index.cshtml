@@ -67,7 +67,7 @@
 <script>
     function PrisustvoNaNastaviPrikaz(StudentID) {
 
-        var url = "/PrisustvoNaNastavi/Prikaz?StudentID=" + StudentID;
+        var url = "/PrisustvoNaNastavi/?StudentID=" + StudentID;
 
         $.get(url, function(d) {
             $("#ajaxPrikaz").html(d);
@@ -97,12 +97,12 @@
                 $("#ajaxPrikaz").html(data);
             }
         });
-        alert("Uspjeno snimljeno");
+      //  alert("Uspjeno snimljeno");
     }
 
     function OcjenePrikaz(StudentID) {
 
-        var url = "/Ocjene/Prikaz?StudentID=" + StudentID;
+        var url = "/Ocjene/?StudentID=" + StudentID;
       
         var zahtjev = new XMLHttpRequest();
         zahtjev.onload = function () {
@@ -140,7 +140,7 @@
                 $("#ajaxPrikaz").html(data);
             }
         });
-        alert("Uspjeno snimljeno");
+      //  alert("Uspjeno snimljeno");
     }
 </script>
 

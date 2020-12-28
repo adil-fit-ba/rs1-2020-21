@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using eUniverzitet.Shared.Data;
 using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.Web.SignalR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;

@@ -36,17 +36,22 @@ namespace eUniverzitet.Web.Controllers
         
         public IActionResult Snimi(PrisustvoNaNastaviUrediVM x)
         {
-            PrisustvoNaNastavi p = db.PrisustvoNaNastavi.Find(x.PrisustvoNaNastaviID);
+            PrisustvoNaNastavi p = db.PrisustvoNaNastavi
+                .Include(s => s.Student.Korisnik)
+                .Single(s => s.ID == x.PrisustvoNaNastaviID);
 
             p.IsPrisutan = x.IsPrisutan;
             p.Komentar = x.komentar;
             db.SaveChanges();
 
-            return Redirect("/PrisustvoNaNastavi/Prikaz?StudentID=" + p.StudentID);
+            TempData["PorukaWarning"] = "Uspješno ste evidentirali evidenciju za studenta " + p.Student.Korisnik.Ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
+
+
+            return Redirect("/PrisustvoNaNastavi/?StudentID=" + p.StudentID);
         }
 
 
-        public IActionResult Prikaz(int StudentID)
+        public IActionResult Index(int StudentID)
         {
             var m = new PrisustvoNaNastaviPrikazVM();
 

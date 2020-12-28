@@ -26,7 +26,7 @@ namespace eUniverzitet.Web.Controllers
             _userManager = userManager;
         }
 
-        [Authorize]
+      //  [Authorize]
         public IActionResult Index()
         {
             return View();

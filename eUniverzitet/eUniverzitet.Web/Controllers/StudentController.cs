@@ -25,7 +25,7 @@ namespace eUniverzitet.Web.Controllers
         }
 
         //public IActionResult Snimi(int studentID, string Imeee, string Prezime, int OpstinaRodjenjaID, int OpstinaPrebivalistaID)
-        public async System.Threading.Tasks.Task<IActionResult> Snimi(StudentDodajVM x)
+        public  IActionResult Snimi(StudentDodajVM x)
         {
             Student student;
 
@@ -54,19 +54,15 @@ namespace eUniverzitet.Web.Controllers
             student.OpstinaRodjenjaID = x.OpstinaRodjenjaID;
 
             if (x.ID == 0)
-                await _userManager.CreateAsync(student.Korisnik, "Test.2020");
+                _ = _userManager.CreateAsync(student.Korisnik, "Test.2020").Result;
 
             _db.SaveChanges(); //insert into Student value (...) ili update Student
 
             
-            return Redirect("/Student/Poruka");
+            return Redirect("/Student");
         }
 
-        public IActionResult Poruka()
-        {     
-
-            return View("Poruka");
-        }
+       
 
 
         public IActionResult Obrisi(int StudentID)
@@ -83,9 +79,9 @@ namespace eUniverzitet.Web.Controllers
             _db.Remove(s);
             _db.SaveChanges();//delete Student where id=...
 
-            TempData["PorukaInfo"] = "Uspješno ste obrisali studenta " + s.Korisnik.Ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
+            TempData["PorukaWarning"] = "Uspješno ste obrisali studenta " + s.Korisnik.Ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
 
-            return Redirect("/Student/Poruka");
+            return Redirect("/Student/");
         }
        
         public IActionResult Uredi(int StudentID)
@@ -125,7 +121,7 @@ namespace eUniverzitet.Web.Controllers
         }
 
 
-        public IActionResult Prikaz(string q)
+        public IActionResult Index(string q)
         {
             //string q = HttpContext.Request.QueryString["q"];
 
@@ -150,8 +146,6 @@ namespace eUniverzitet.Web.Controllers
 
 
 
-      //      ViewData["q"] = q;
-     //       ViewData["studedsfdsnti"] = studenti;
              StudentPrikazVM m = new StudentPrikazVM();
              m.studenti = studenti;
              m.q = q;

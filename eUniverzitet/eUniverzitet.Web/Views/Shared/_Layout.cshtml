@@ -49,5 +49,20 @@
 <script src="https://wrd.app.fit.ba/2018-19/fit-messagebox.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
     @RenderSection("Scripts", required: false)
+
+<script>
+
+    var pSuccess = '@TempData["porukaSuccess"]';
+    var pInfo = '@TempData["PorukaInfo"]';
+    var pWarning = '@TempData["PorukaWarning"]';
+    var pError = '@TempData["PorukaError"]';
+
+    //https://wrd.app.fit.ba/2018-19/fit-messagebox.js
+    porukaSuccess(pSuccess);
+    porukaInfo(pInfo);
+    porukaWarning(pWarning);
+    porukaError(pError);
+
+</script>
 </body>
 </html>

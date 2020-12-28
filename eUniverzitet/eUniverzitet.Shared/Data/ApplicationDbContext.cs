@@ -7,7 +7,9 @@ namespace eUniverzitet.Shared.Data
 {
     public class ApplicationDbContext : IdentityDbContext  <Korisnik>
     {
+        public DbSet<LogKretanjePoSistemu> LogKretanjePoSistemu{ get; set; }
         public DbSet<Opstina> Opstina { get; set; }
+        public DbSet<Korisnik> Korisnik{ get; set; }
         public DbSet<Student> Student { get; set; }
 
         public DbSet<Ocjene> Ocjene { get; set; }
@@ -33,6 +35,7 @@ namespace eUniverzitet.Shared.Data
 
             base.OnModelCreating(modelBuilder);
 
+            //one-to-one veza
             modelBuilder.Entity<Korisnik>()
                 .HasOne<Student>(s => s.Student)
                 .WithOne(ad => ad.Korisnik)

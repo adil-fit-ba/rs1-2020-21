@@ -11,6 +11,7 @@ namespace eUniverzitet.Shared.EntityModels
        public string Prezime { get; set; }
 
        public Nastavnik Nastavnik { get; set; }
+       
        public Student Student { get; set; }
    }
 }

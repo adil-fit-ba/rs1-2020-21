@@ -1,13 +1,16 @@
 ﻿using System.Linq;
 using eUniverzitet.Shared.Data;
 using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.Web.Helper;
 using eUniverzitet.Web.Models;
+using eUniverzitet.Web.SignalR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
 
 namespace eUniverzitet.Web.Controllers
 {
+    [Autorizacija(ucenik: false, nastavnici: true)]
     public class OcjeneController : Controller
     {
         private ApplicationDbContext db;
@@ -18,7 +21,7 @@ namespace eUniverzitet.Web.Controllers
             _hubContext = hubContext;
         }
 
-        public IActionResult Prikaz(int StudentID)
+        public IActionResult Index(int StudentID)
         {
             var m = db.Ocjene.Where(s => s.StudentID == StudentID)
                 .Select(s => new OcjenePrikazVM
@@ -52,19 +55,20 @@ namespace eUniverzitet.Web.Controllers
 
         public IActionResult Snimi(OcjenaUrediVm x)
         {
-            
-            
             Ocjene ocjene = db.Ocjene.Include(s=>s.Student.Korisnik) .Single(s => s.ID == x.OcjenaID);
             ocjene.OcjenaBrojacna = x.Ocjena;
             db.SaveChanges();
+            TempData["PorukaWarning"] = "Uspješno ste evidentirali ocjenu za studenta " + ocjene.Student.Korisnik.Ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
 
-            string korisnikIme = ocjene.Student.Korisnik.Ime;
+            Korisnik k = ocjene.Student.Korisnik;
+            string poruka = "Vama je upravo evidentirana nova ocjena: " + ocjene.OcjenaBrojacna;
             
-            _hubContext.Clients.All.SendAsync("prijemPoruke", korisnikIme, "evidentirana nova ocjena: " + ocjene.OcjenaBrojacna);
+            _hubContext.Clients.Group(k.UserName).SendAsync("prijemPoruke", k.Ime, poruka);
+            //_hubContext.Clients.All.SendAsync("prijemPoruke", k.Ime, poruka);
             
             
             //    return RedirectToAction("Prikaz", new { StudentID=ocjene.StudentID });
-            return Redirect("/Ocjene/Prikaz?StudentID=" + ocjene.StudentID);
+            return Redirect("/Ocjene/?StudentID=" + ocjene.StudentID);
 
         }
     }

@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using eUniverzitet.Shared.Data;
 
 namespace eUniverzitet.Shared.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20201228152459_kretanjeposistemu")]
+    partial class kretanjeposistemu
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -229,35 +231,6 @@ namespace eUniverzitet.Shared.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
-                });
-
-            modelBuilder.Entity("eUniverzitet.Shared.EntityModels.LogKretanjePoSistemu", b =>
-                {
-                    b.Property<int>("ID")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("IpAdresa")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("KorisnikID")
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<string>("PostData")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("QueryPath")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<DateTime>("Vrijeme")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("ID");
-
-                    b.HasIndex("KorisnikID");
-
-                    b.ToTable("LogKretanjePoSistemu");
                 });
 
             modelBuilder.Entity("eUniverzitet.Shared.EntityModels.Nastavnik", b =>
@@ -489,13 +462,6 @@ namespace eUniverzitet.Shared.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-                });
-
-            modelBuilder.Entity("eUniverzitet.Shared.EntityModels.LogKretanjePoSistemu", b =>
-                {
-                    b.HasOne("eUniverzitet.Shared.EntityModels.Korisnik", "Korisnik")
-                        .WithMany()
-                        .HasForeignKey("KorisnikID");
                 });
 
             modelBuilder.Entity("eUniverzitet.Shared.EntityModels.Nastavnik", b =>
