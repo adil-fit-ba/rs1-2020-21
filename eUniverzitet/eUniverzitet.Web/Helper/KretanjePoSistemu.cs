@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Threading.Tasks;
-using eUniverzitet.Shared.Data;
-using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.BL.Data;
+using eUniverzitet.BL.EntityModels;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
@@ -19,9 +19,7 @@ namespace eUniverzitet.Web.Helper
     {
         public static int Save(HttpContext httpContext, IExceptionHandlerPathFeature exceptionMessage=null)
         {
-            UserManager<Korisnik> userManager = httpContext.RequestServices.GetService<UserManager<Korisnik>>();
-            Korisnik korisnik = httpContext.User==null?null:userManager.GetUserAsync(httpContext.User).Result;
-
+            Korisnik korisnik = httpContext.LogiraniKorisnik();
 
             var request = httpContext.Request;
 

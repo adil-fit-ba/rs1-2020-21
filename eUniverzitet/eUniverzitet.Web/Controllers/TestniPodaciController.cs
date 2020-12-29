@@ -1,5 +1,5 @@
-﻿using eUniverzitet.Shared.Data;
-using eUniverzitet.Shared.EntityModels;
+﻿using eUniverzitet.BL.Data;
+using eUniverzitet.BL.EntityModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 

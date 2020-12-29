@@ -1,6 +1,6 @@
 ﻿using System.Linq;
-using eUniverzitet.Shared.Data;
-using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.BL.Data;
+using eUniverzitet.BL.EntityModels;
 using eUniverzitet.Web.Helper;
 using eUniverzitet.Web.Models;
 using eUniverzitet.Web.SignalR;
@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace eUniverzitet.Web.Controllers
 {
-    [Autorizacija(ucenik: false, nastavnici: true)]
+    [Autorizacija(false,  true)]
     public class OcjeneController : Controller
     {
         private ApplicationDbContext db;

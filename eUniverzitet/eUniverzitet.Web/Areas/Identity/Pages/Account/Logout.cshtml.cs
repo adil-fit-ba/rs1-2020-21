@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using eUniverzitet.BL.EntityModels;
 using Microsoft.AspNetCore.Authorization;
-using eUniverzitet.Shared.EntityModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;

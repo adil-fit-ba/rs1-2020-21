@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using eUniverzitet.Shared.Data;
-using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.BL.Data;
+using eUniverzitet.BL.EntityModels;
 using eUniverzitet.Web.Helper;
 using eUniverzitet.Web.Models;
 using Microsoft.AspNetCore.Identity;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Hosting.Internal;
 namespace eUniverzitet.Web.Controllers
 {
 
-    [Autorizacija(ucenik: false, nastavnici: true)]
+    [Autorizacija( false,  true)]
     public class StudentController : Controller
     {
         private ApplicationDbContext _db;

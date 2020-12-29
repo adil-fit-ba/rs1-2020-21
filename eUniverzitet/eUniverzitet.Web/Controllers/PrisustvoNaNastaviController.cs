@@ -1,6 +1,6 @@
 ﻿using System.Linq;
-using eUniverzitet.Shared.Data;
-using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.BL.Data;
+using eUniverzitet.BL.EntityModels;
 using eUniverzitet.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

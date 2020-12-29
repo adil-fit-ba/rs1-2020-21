@@ -1,4 +1,5 @@
-﻿@inject SignInManager<Korisnik> SignInManager
+﻿@using eUniverzitet.BL.EntityModels
+@inject SignInManager<Korisnik> SignInManager
 @{
     var hasExternalLogins = (await SignInManager.GetExternalAuthenticationSchemesAsync()).Any();
 }

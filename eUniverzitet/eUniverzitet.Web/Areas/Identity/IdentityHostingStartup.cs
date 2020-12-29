@@ -1,6 +1,4 @@
 ﻿using System;
-using eUniverzitet.Shared.Data;
-using eUniverzitet.Shared.EntityModels;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI;

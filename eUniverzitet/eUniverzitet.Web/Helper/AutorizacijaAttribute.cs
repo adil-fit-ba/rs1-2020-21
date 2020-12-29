@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using eUniverzitet.Shared.Data;
-using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.BL.EntityModels;
 using eUniverzitet.Web.Controllers;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
@@ -19,23 +19,23 @@ namespace eUniverzitet.Web.Helper
 
     public class AutorizacijaAttribute : TypeFilterAttribute
     {
-        public AutorizacijaAttribute(bool ucenik, bool nastavnici)
+        public AutorizacijaAttribute(bool dozvoljenoStudentu, bool dozvoljenoNastavnicima)
             : base(typeof(MyAuthorizeImpl))
         {
-            Arguments = new object[] { ucenik, nastavnici };
+            Arguments = new object[] { dozvoljenoStudentu, dozvoljenoNastavnicima };
         }
     }
 
 
     public class MyAuthorizeImpl : IActionFilter
     {
-        public MyAuthorizeImpl(bool ucenik, bool nastavnici)
+        public MyAuthorizeImpl(bool dozvoljenoStudentu, bool dozvoljenoNastavnicima)
         {
-            _ucenik = ucenik;
-            _nastavnici = nastavnici;
+            _dozvoljenoStudentu = dozvoljenoStudentu;
+            _dozvoljenoNastavnicima = dozvoljenoNastavnicima;
         }
-        private readonly bool _ucenik;
-        private readonly bool _nastavnici;
+        private readonly bool _dozvoljenoStudentu;
+        private readonly bool _dozvoljenoNastavnicima;
 
         public void OnActionExecuted(ActionExecutedContext context)
         {
@@ -45,22 +45,9 @@ namespace eUniverzitet.Web.Helper
 
         public void OnActionExecuting(ActionExecutingContext filterContext)
         {
-            //Preuzimamo DbContext preko app services
-            ApplicationDbContext db = filterContext.HttpContext.RequestServices.GetService<ApplicationDbContext>();
-            
-            //Preuzimamo userManager preko app services
-            UserManager<Korisnik> userManager = filterContext.HttpContext.RequestServices.GetService<UserManager<Korisnik>>();
-            
-            //TrenutniKorisnik
+            HttpContext httpContext = filterContext.HttpContext;
 
-           string userId = userManager.GetUserId(filterContext.HttpContext.User);
-
-            Korisnik k = db.Korisnik.Where(s => s.Id == userId)
-            .Include(s => s.Nastavnik)
-            .Include(s => s.Student)
-            .SingleOrDefault();
-
-            //  Korisnik k = userManager.GetUserAsync(filterContext.HttpContext.User).Result;
+            Korisnik k = httpContext.LogiraniKorisnik();
 
             if (k == null)
             {
@@ -72,16 +59,16 @@ namespace eUniverzitet.Web.Helper
                 return;
             }
 
-            KretanjePoSistemu.Save(filterContext.HttpContext);
+            KretanjePoSistemu.Save(httpContext);
 
             //studenti mogu pristupiti 
-            if (_ucenik && k.Student != null)
+            if (_dozvoljenoStudentu && k.Student != null)
             {
                 return;//ok - ima pravo pristupa
             }
 
             //nastavnici mogu pristupiti 
-            if (_nastavnici && k.Nastavnik != null)
+            if (_dozvoljenoNastavnicima && k.Nastavnik != null)
             {
                 return;//ok - ima pravo pristupa
             }

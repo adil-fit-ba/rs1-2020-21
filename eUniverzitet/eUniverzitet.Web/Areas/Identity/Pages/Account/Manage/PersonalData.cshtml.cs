@@ -1,5 +1,5 @@
 ﻿using System.Threading.Tasks;
-using eUniverzitet.Shared.EntityModels;
+using eUniverzitet.BL.EntityModels;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
