@@ -1,11 +1,21 @@
-﻿@{
+﻿@using eUniverzitet.BL.EntityModels
+@using eUniverzitet.Web.Helper
+@{
     ViewData["Title"] = "Home Page";
+
+    Korisnik k = Context.LogiraniKorisnik();
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
-<a asp-controller="Student" asp-action="Index" >Opcija Studenti</a>
+
+@if (k?.Nastavnik != null)
+{
+    <a asp-controller="Student" asp-action="Index">Opcija Studenti</a>
+}
 <br />
 <a asp-controller="TestniPodaci" asp-action="Index" >Generisi podatke</a>
+
+

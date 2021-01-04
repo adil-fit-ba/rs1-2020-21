@@ -1,41 +1,23 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AspNetCore.Reporting;
 using eUniverzitet.BL.Data;
-using eUniverzitet.Shared.Reports;
 using eUniverzitet.Web.Helper;
-using Microsoft.AspNetCore.Mvc;
+using TmpAppForReportDesign;
 
 namespace eUniverzitet.Web.Controllers
 {
-    [Autorizacija(false, true)]
     public class Report1Controller : Controller
     {
         private ApplicationDbContext _db;
 
-        public Report1Controller(ApplicationDbContext applicationDbContext)
+        public Report1Controller(ApplicationDbContext db)
         {
-            this._db = applicationDbContext;
+            _db = db;
         }
-
-        public IActionResult Index()
-        {
-            List<Report1Row> podaci = getStudenti(_db);
-
-
-            LocalReport _localReport = new LocalReport("Reporti/Report1.rdlc");
-            _localReport.AddDataSource("dsStudenti", podaci);
-         
-            Dictionary<string, string> parameters = new Dictionary<string, string>();
-            parameters.Add("ReportSastavio", HttpContext.LogiraniKorisnik().ImePrezime);
-
-            ReportResult result = _localReport.Execute(RenderType.Pdf, parameters: parameters);
-            return File(result.MainStream, "application/pdf");
-
-        }
-
 
         public static List<Report1Row> getStudenti(ApplicationDbContext db)
         {
@@ -49,7 +31,18 @@ namespace eUniverzitet.Web.Controllers
 
             return podaci;
         }
-    }
+        public IActionResult Index()
+        {
+            LocalReport _localReport = new LocalReport("Reporti/Report1.rdlc");
+            List<Report1Row> podaci = getStudenti(_db);
+            _localReport.AddDataSource("DataSet1", podaci);
 
-  
+            Dictionary<string, string> parameters = new Dictionary<string, string>();
+            parameters.Add("ReportSastavio", HttpContext.LogiraniKorisnik().ImePrezime);
+
+            ReportResult result = _localReport.Execute(RenderType.ExcelOpenXml, parameters: parameters);
+            return File(result.MainStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+
+        }
+    }
 }

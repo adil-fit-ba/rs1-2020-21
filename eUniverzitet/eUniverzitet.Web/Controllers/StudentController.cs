@@ -6,6 +6,7 @@ using eUniverzitet.BL.Data;
 using eUniverzitet.BL.EntityModels;
 using eUniverzitet.Web.Helper;
 using eUniverzitet.Web.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
@@ -14,7 +15,7 @@ using Microsoft.Extensions.Hosting.Internal;
 
 namespace eUniverzitet.Web.Controllers
 {
-
+   // [Authorize]
     [Autorizacija( false,  true)]
     public class StudentController : Controller
     {
@@ -63,7 +64,12 @@ namespace eUniverzitet.Web.Controllers
                 string contentType = x.SlikaStudentaNew.ContentType;
 
                 var filename = $"{Guid.NewGuid()}{ekstenzija}";
-                x.SlikaStudentaNew.CopyTo(new FileStream("wwwroot/uploads/" + filename, FileMode.Create));
+                string folder = "wwwroot/uploads/";
+                bool exists = System.IO.Directory.Exists(folder);
+                if (!exists)
+                    System.IO.Directory.CreateDirectory(folder);
+                
+                x.SlikaStudentaNew.CopyTo(new FileStream(folder + filename, FileMode.Create));
                 student.SlikaStudenta = filename;
             }
 

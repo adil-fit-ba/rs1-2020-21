@@ -17,7 +17,7 @@
     <input type="submit" value="Trazi" />
 </form>
 
-
+<a asp-controller="Report1" asp-action="Index">Izvjestaj PDF</a>
 
 <table class="table table-hover">
     <thead>
@@ -95,6 +95,7 @@
             data: form.serialize(),
             success: function (data) {
                 $("#ajaxPrikaz").html(data);
+                
             }
         });
       //  alert("Uspjeno snimljeno");
@@ -138,6 +139,7 @@
             data: form.serialize(),
             success: function (data) {
                 $("#ajaxPrikaz").html(data);
+                porukaWarning("Uspješno evidentirana ocjena");
             }
         });
       //  alert("Uspjeno snimljeno");
