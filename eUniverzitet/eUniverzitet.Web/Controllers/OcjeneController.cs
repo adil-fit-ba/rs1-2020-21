@@ -64,7 +64,7 @@ namespace eUniverzitet.Web.Controllers
             string poruka = "Vama je upravo evidentirana nova ocjena: " + ocjene.OcjenaBrojacna;
             
             _hubContext.Clients.Group(k.UserName).SendAsync("prijemPoruke", k.Ime, poruka);
-            //_hubContext.Clients.All.SendAsync("prijemPoruke", k.Ime, poruka);
+            //_hubContext.Clients.All.SendAsync("prijemPoruke", k.ime, poruka);
             
             
             //    return RedirectToAction("Prikaz", new { StudentID=ocjene.StudentID });

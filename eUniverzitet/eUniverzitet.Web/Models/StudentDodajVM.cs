@@ -7,16 +7,16 @@ namespace eUniverzitet.Web.Models
 {
     public class StudentDodajVM
     {
-        public List<SelectListItem> opstine;
-        public int OpstinaRodjenjaID { get; set; }
-        public int ID { get; set; }
+        public List<SelectListItem> opstine { get; set; }
+        public int opstinaRodjenjaID { get; set; }
+        public int id { get; set; }
         [MaxLength(5)]
-        public string Ime { get; set; }
+        public string ime { get; set; }
         [EmailAddress]
-        public string Email { get; set; }
-        public string Prezime { get; set; }
-        public int OpstinaPrebivalistaID { get; set; }
-        public IFormFile SlikaStudentaNew { set; get; }
-        public string SlikaStudentaCurrent { get; set; }
+        public string email { get; set; }
+        public string prezime { get; set; }
+        public int opstinaPrebivalistaID { get; set; }
+        public IFormFile slikaStudentaNew { set; get; }
+        public string slikaStudentaCurrent { get; set; }
     }
 }

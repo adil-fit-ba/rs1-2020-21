@@ -17,7 +17,7 @@ namespace eUniverzitet.Web.Models
             public string Email { get; set; }
         }
 
-        public List<Row> studenti;
-        public string q;
+        public List<Row> studenti { get; set; }
+        public string q { get; set; }
     }
 }

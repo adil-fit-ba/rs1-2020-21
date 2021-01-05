@@ -22,11 +22,11 @@
 <table class="table table-hover">
     <thead>
     <tr>
-        <th>ID</th>
+        <th>id</th>
         <th>BrojIndeksa</th>
-        <th>Email</th>
-        <th>Ime</th>
-        <th>Prezime</th>
+        <th>email</th>
+        <th>ime</th>
+        <th>prezime</th>
         <th>OpstinaPrebivalista</th>
         <th>OpstinaRodjenja</th>
         <th>Akcija</th>
@@ -45,8 +45,8 @@
             <td>@s.OpstinaRodjenja</td>
             <td>@s.OpstinaPrebivalista</td>
             <td>
-                <a href="/Student/Uredi?StudentID=@s.ID">Uredi</a>
-                <a href="/Student/Obrisi?StudentID=@s.ID">Obrisi</a>
+                <a href="/Student/Uredi?Studentid=@s.ID">Uredi</a>
+                <a href="/Student/Obrisi?Studentid=@s.ID">Obrisi</a>
                 <button onclick="OcjenePrikaz(@s.ID)">Ocjene</button>
                 <button onclick="PrisustvoNaNastaviPrikaz(@s.ID)">PrisutvoNaNastvi</button>
             </td>
@@ -67,7 +67,7 @@
 <script>
     function PrisustvoNaNastaviPrikaz(StudentID) {
 
-        var url = "/PrisustvoNaNastavi/?StudentID=" + StudentID;
+        var url = "/PrisustvoNaNastavi/?Studentid=" + StudentID;
 
         $.get(url, function(d) {
             $("#ajaxPrikaz").html(d);
@@ -76,7 +76,7 @@
 
     function PrisustvoNaNastaviUredi(PrisustvoNaNastaviID) {
 
-        var url = "/PrisustvoNaNastavi/Uredi?PrisustvoNaNastaviID=" + PrisustvoNaNastaviID;
+        var url = "/PrisustvoNaNastavi/Uredi?PrisustvoNaNastaviid=" + PrisustvoNaNastaviID;
 
         $.get(url, function(d) {
             $("#ajaxPrikaz").html(d);
@@ -103,7 +103,7 @@
 
     function OcjenePrikaz(StudentID) {
 
-        var url = "/Ocjene/?StudentID=" + StudentID;
+        var url = "/Ocjene/?Studentid=" + StudentID;
       
         var zahtjev = new XMLHttpRequest();
         zahtjev.onload = function () {
@@ -121,7 +121,7 @@
 
     function OcjeneUredi(OcjenaID) {
 
-        var url = "/Ocjene/Uredi?OcjenaID=" + OcjenaID;
+        var url = "/Ocjene/Uredi?Ocjenaid=" + OcjenaID;
 
         $.get(url, function(d) {
 

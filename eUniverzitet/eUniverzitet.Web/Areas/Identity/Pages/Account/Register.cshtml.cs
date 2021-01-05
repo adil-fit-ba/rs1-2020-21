@@ -48,7 +48,7 @@ namespace eUniverzitet.Web.Areas.Identity.Pages.Account
         {
             [Required]
             [EmailAddress]
-            [Display(Name = "Email")]
+            [Display(Name = "email")]
             public string Email { get; set; }
 
             [Required]

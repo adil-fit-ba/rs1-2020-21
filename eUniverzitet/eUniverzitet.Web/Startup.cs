@@ -54,9 +54,12 @@ namespace eUniverzitet.Web
             services.AddControllersWithViews();
             services.AddRazorPages();
             services.AddSignalR();
+
+
+
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -92,6 +95,13 @@ namespace eUniverzitet.Web
             app.UseAuthentication();
             app.UseAuthorization();
 
+
+            app.UseCors(builder => builder
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                );
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(

@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net.Http.Headers;
 using eUniverzitet.BL.Data;
 using eUniverzitet.BL.EntityModels;
 using eUniverzitet.Web.Helper;
@@ -13,31 +12,24 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting.Internal;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace eUniverzitet.Web.Controllers
 {
    // [Authorize]
   //  [Autorizacija( false,  true)]
-    public class StudentController : Controller
+    public class Student2Controller : Controller
     {
         private ApplicationDbContext _db;
         private UserManager<Korisnik> _userManager;
 
-        public StudentController(ApplicationDbContext db, UserManager<Korisnik> usermanager)
+        public Student2Controller(ApplicationDbContext db, UserManager<Korisnik> usermanager)
         {
             this._db = db;
             this._userManager = usermanager;
         }
 
-        [HttpPost]
-        public  IActionResult Snimi()
+        public  IActionResult Snimi([FromBody] StudentDodajVM x)
         {
-            using var reader = new StreamReader(Request.Body);
-            string jsonString = reader.ReadToEndAsync().Result;
-            StudentDodajVM x = JsonConvert.DeserializeObject<StudentDodajVM>(jsonString);
-            
             Student student;
 
             if (x.id == 0) //insert
@@ -85,7 +77,7 @@ namespace eUniverzitet.Web.Controllers
 
             _db.SaveChanges(); //insert into Student value (...) ili update Student
 
-            return Redirect("/Student");
+            return Ok();
         }
 
         public IActionResult Obrisi(int StudentID)
@@ -102,8 +94,7 @@ namespace eUniverzitet.Web.Controllers
             _db.SaveChanges();//delete Student where id=...
 
             TempData["PorukaWarning"] = "Uspješno ste obrisali studenta " + s.Korisnik.Ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
-            
-            return Redirect("/Student/");
+            return Ok();
         }
 
         public IActionResult Uredi(int StudentID)
@@ -137,16 +128,15 @@ namespace eUniverzitet.Web.Controllers
 
             s.opstine = opstine;
 
-            return View("Uredi", s);
+            return Json(s);
         }
 
-        public IActionResult Index(string q)
+        public IActionResult Index(string q, bool returnAPI=false)
         {
-            //select * from Student 
             List<StudentPrikazVM.Row> studenti = _db.Student
                 .Where(s => q == null || (s.Korisnik.Ime + " " + s.Korisnik.Prezime).StartsWith(q) ||
                             (s.Korisnik.Prezime + " " + s.Korisnik.Ime).StartsWith(q))
-                .Select(x => new StudentPrikazVM.Row
+                .Select(x=>new StudentPrikazVM.Row
                 {
                     ID = x.ID,
                     BrojIndeksa = x.BrojIndeksa,
@@ -158,11 +148,11 @@ namespace eUniverzitet.Web.Controllers
                 })
                 .ToList();
 
-            StudentPrikazVM m = new StudentPrikazVM();
-            m.studenti = studenti;
-            m.q = q;
-
-            return View(m);
+             StudentPrikazVM m = new StudentPrikazVM();
+             m.studenti = studenti;
+             m.q = q;
+             
+            return Json(m);
         }
     }
 }
