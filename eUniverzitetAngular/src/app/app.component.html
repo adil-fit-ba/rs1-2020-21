@@ -49,24 +49,6 @@
 </table>
 
 
-<script>
-  function generisiPreview(input) {
-    var file = input.files[0];
-
-    if (file)
-    {
-      var reader = new FileReader();
-
-      reader.onload = function ()
-      {
-        document.getElementById("previewImg").setAttribute("src", reader.result+"");
-      }
-
-      reader.readAsDataURL(file);
-    }
-  }
-
-</script>
 <div *ngIf="editStudent != null" class="modal fade show" tabindex="-1" role="dialog"  style="padding-right: 17px; display: block;">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -121,7 +103,7 @@
 
         <div class="form-group">
           <label>Odabei novu sliku studenta</label>
-          <input class="form-control" type="file" accept="image/*" onchange="generisiPreview(this)"/>
+          <input class="form-control" id="fileSlika" type="file" accept="image/*" (change)="generisiPreview()"/>
         </div>
 
       </div>

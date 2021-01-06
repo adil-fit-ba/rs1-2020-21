@@ -1,18 +1,19 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs';
 import {StudentPrikazVM, StudentRow} from './student-prikaz-vm';
 import {StudentDodajVM} from './student-dodaj-vm';
 import {Myconfig} from './myconfig';
+
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
 
+export class AppComponent  {
 
-
-export class AppComponent {
   title:string = 'euniverzitetApp';
   prikazVM: StudentPrikazVM =null;
   trazi: string="";
@@ -20,6 +21,8 @@ export class AppComponent {
 
   constructor(private http: HttpClient) {
   }
+
+
 
   preuzmiPodatke(){
     this.http.get<StudentPrikazVM>(Myconfig.webAppUrl+'/Student2/Index').subscribe((a) => {
@@ -46,19 +49,42 @@ export class AppComponent {
   getSlikaStudentaCurrent() {
     return Myconfig.webAppUrl+ "/uploads/" +  this.editStudent.slikaStudentaCurrent;
   }
+
   httpOptions = {
-    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+   // headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+    headers: new HttpHeaders({ 'Content-Type': 'multipart/form-data' })
   };
+
   snimi()
   {
-  //  let body:string = JSON.stringify(this.editStudent)
     this.http.post(Myconfig.webAppUrl + "/Student/Snimi", this.editStudent, this.httpOptions).subscribe(d=>{
-        alert(d);
+        this.editStudent=null;
     });
   }
 
   testiraj() {
     this.prikazVM.studenti[0].prezime="Tanovic";
+  }
+
+
+  generisiPreview() {
+    // @ts-ignore
+    let file = document.getElementById("fileSlika").files[0];
+
+    if (file)
+    {
+      var reader = new FileReader();
+
+      //let student = this.editStudent;
+      reader.onload = function ()
+      {
+        let s = reader.result.toString();
+        document.getElementById("previewImg").setAttribute("src", s);
+       // student.slikaStudentaNew = s;
+      }
+
+      reader.readAsDataURL(file);
+    }
   }
 }
 
