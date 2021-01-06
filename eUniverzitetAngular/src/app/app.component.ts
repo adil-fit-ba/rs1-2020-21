@@ -51,14 +51,13 @@ export class AppComponent  {
   }
 
   httpOptions = {
-   // headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-    headers: new HttpHeaders({ 'Content-Type': 'multipart/form-data' })
+    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
   };
 
   snimi()
   {
     this.http.post(Myconfig.webAppUrl + "/Student/Snimi", this.editStudent, this.httpOptions).subscribe(d=>{
-        this.editStudent=null;
+        this.editStudent=null;//sakriva div za edivanje
     });
   }
 
