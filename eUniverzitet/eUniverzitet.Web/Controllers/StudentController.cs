@@ -146,13 +146,13 @@ namespace eUniverzitet.Web.Controllers
                             (s.Korisnik.Prezime + " " + s.Korisnik.Ime).StartsWith(q))
                 .Select(x => new StudentPrikazVM.Row
                 {
-                    ID = x.ID,
-                    BrojIndeksa = x.BrojIndeksa,
-                    Ime = x.Korisnik.Ime,
-                    Prezime = x.Korisnik.Prezime,
-                    Email = x.Korisnik.Email,
-                    OpstinaRodjenja = x.OpstinaRodjenja.Naziv,
-                    OpstinaPrebivalista = x.OpstinaPrebivalista.Naziv,
+                    id = x.ID,
+                    brojIndeksa = x.BrojIndeksa,
+                    ime = x.Korisnik.Ime,
+                    prezime = x.Korisnik.Prezime,
+                    email = x.Korisnik.Email,
+                    opstinaRodjenja = x.OpstinaRodjenja.Naziv,
+                    opstinaPrebivalista = x.OpstinaPrebivalista.Naziv,
                 })
                 .ToList();
 

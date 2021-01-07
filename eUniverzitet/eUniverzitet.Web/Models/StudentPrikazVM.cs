@@ -8,13 +8,13 @@ namespace eUniverzitet.Web.Models
         {
          
 
-            public int ID { get; set; }
-            public string BrojIndeksa { get; set; }
-            public string Ime { get; set; }
-            public string Prezime { get; set; }
-            public string OpstinaPrebivalista { get; set; }
-            public string OpstinaRodjenja { get; set; }
-            public string Email { get; set; }
+            public int id { get; set; }
+            public string brojIndeksa { get; set; }
+            public string ime { get; set; }
+            public string prezime { get; set; }
+            public string opstinaPrebivalista { get; set; }
+            public string opstinaRodjenja { get; set; }
+            public string email { get; set; }
         }
 
         public List<Row> studenti { get; set; }
