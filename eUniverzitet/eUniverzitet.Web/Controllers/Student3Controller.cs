@@ -12,29 +12,23 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Hosting.Internal;
-using Newtonsoft.Json;
 
 namespace eUniverzitet.Web.Controllers
 {
-   // [Authorize]
-  //  [Autorizacija( false,  true)] //todo: implementirati autentifikaciju i autorizaciju za API klijenta
-    public class Student2Controller : Controller
+  //  [Autorizacija( false,  true)] todo: riješiti autorizaciju za API
+    public class Student3Controller : Controller
     {
         private ApplicationDbContext _db;
         private UserManager<Korisnik> _userManager;
 
-        public Student2Controller(ApplicationDbContext db, UserManager<Korisnik> usermanager)
+        public Student3Controller(ApplicationDbContext db, UserManager<Korisnik> usermanager)
         {
             this._db = db;
             this._userManager = usermanager;
         }
 
-        public IActionResult Snimi()
+        public  IActionResult Snimi([FromBody] Student3RowVM x)
         {
-            using var reader = new StreamReader(Request.Body);
-            string jsonString = reader.ReadToEndAsync().Result;
-            StudentDodajVM x = JsonConvert.DeserializeObject<StudentDodajVM>(jsonString);
-
             Student student;
 
             if (x.id == 0) //insert
@@ -42,19 +36,15 @@ namespace eUniverzitet.Web.Controllers
                 student = new Student();
                 student.Korisnik = new Korisnik
                 {
-
+                    
                 };
                 _db.Add(student);
-                TempData["PorukaInfo"] =
-                    "Uspješno ste dodali studenta " + x.ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
+                TempData["PorukaInfo"] = "Uspješno ste dodali studenta " + x.ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
             }
             else
-            {
-                //update
-                student = _db.Student.Include(s => s.Korisnik).Single(s => s.ID == x.id);
-                TempData["PorukaInfo"] =
-                    "Uspješno ste updateovali studenta " +
-                    x.ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
+            {                                //update
+                student = _db.Student.Include(s=>s.Korisnik).Single(s => s.ID == x.id);
+                TempData["PorukaInfo"] = "Uspješno ste updateovali studenta " + x.ime; //transport podataka iz akcije 1 u (akciju 2 + njegov view)
             }
 
             student.Korisnik.Ime = x.ime;
@@ -68,17 +58,18 @@ namespace eUniverzitet.Web.Controllers
 
             if (x.slikaStudentaNew != null)
             {
-                string ekstenzija = Path.GetExtension(x.slikaStudentaNew.FileName);
-                string contentType = x.slikaStudentaNew.ContentType;
+                //todo: slikaStudentaNew je base64 formatu. konvertovati u byte niz
+                //string ekstenzija = Path.GetExtension(x.slikaStudentaNew.FileName);
+                //string contentType = x.slikaStudentaNew.ContentType;
 
-                var filename = $"{Guid.NewGuid()}{ekstenzija}";
-                string folder = "wwwroot/uploads/";
-                bool exists = System.IO.Directory.Exists(folder);
-                if (!exists)
-                    System.IO.Directory.CreateDirectory(folder);
+                //var filename = $"{Guid.NewGuid()}{ekstenzija}";
+                //string folder = "wwwroot/uploads/";
+                //bool exists = System.IO.Directory.Exists(folder);
+                //if (!exists)
+                //    System.IO.Directory.CreateDirectory(folder);
 
-                x.slikaStudentaNew.CopyTo(new FileStream(folder + filename, FileMode.Create));
-                student.SlikaStudenta = filename;
+                //x.slikaStudentaNew.CopyTo(new FileStream(folder + filename, FileMode.Create));
+                //student.SlikaStudenta = filename;
             }
 
             if (x.id == 0)
@@ -106,7 +97,7 @@ namespace eUniverzitet.Web.Controllers
             return Ok();
         }
 
-        public IActionResult Uredi(int StudentID)
+        public IActionResult GetOpstine()
         {
             List<SelectListItem> opstine = _db.Opstina
                 .OrderBy(a => a.Naziv)
@@ -117,27 +108,7 @@ namespace eUniverzitet.Web.Controllers
                 })
                 .ToList();
 
-            StudentDodajVM s;
-            if (StudentID == 0)
-                s = new StudentDodajVM() { };
-            else
-                s = _db.Student
-                    .Where(w => w.ID == StudentID)
-                    .Select(a => new StudentDodajVM
-                    {
-                        id = a.ID,
-                        ime = a.Korisnik.Ime,
-                        prezime = a.Korisnik.Prezime,
-                        email = a.Korisnik.Email,
-                        opstinaPrebivalistaID = a.OpstinaPrebivalistaID,
-                        opstinaRodjenjaID = a.OpstinaRodjenjaID,
-                        slikaStudentaCurrent = a.SlikaStudenta
-                        //opstine = opstine
-                    }).Single();
-
-            s.opstine = opstine;
-
-            return Json(s);
+            return Json(opstine);
         }
 
         public IActionResult Index(string q)

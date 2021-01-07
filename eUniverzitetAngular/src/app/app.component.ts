@@ -22,6 +22,11 @@ export class AppComponent  {
   constructor(private http: HttpClient) {
   }
 
+  jelVidljivo():boolean
+  {
+    return this.trazi.length > 0;
+  }
+
 
 
   preuzmiPodatke(){
@@ -56,7 +61,7 @@ export class AppComponent  {
 
   snimi()
   {
-    this.http.post(Myconfig.webAppUrl + "/Student/Snimi", this.editStudent, this.httpOptions).subscribe(d=>{
+    this.http.post(Myconfig.webAppUrl + "/Student2/Snimi", this.editStudent, this.httpOptions).subscribe(d=>{
         this.editStudent=null;//sakriva div za edivanje
     });
   }

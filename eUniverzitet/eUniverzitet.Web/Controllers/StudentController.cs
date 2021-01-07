@@ -32,11 +32,9 @@ namespace eUniverzitet.Web.Controllers
         }
 
         [HttpPost]
-        public  IActionResult Snimi()
+        public  IActionResult Snimi(StudentDodajVM x)
         {
-            using var reader = new StreamReader(Request.Body);
-            string jsonString = reader.ReadToEndAsync().Result;
-            StudentDodajVM x = JsonConvert.DeserializeObject<StudentDodajVM>(jsonString);
+  
             
             Student student;
 

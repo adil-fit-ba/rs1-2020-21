@@ -1,5 +1,5 @@
 
-export interface StudentRow {
+export class StudentRow {
   id: number;
   brojIndeksa: string;
   ime: string;
@@ -9,7 +9,7 @@ export interface StudentRow {
   email: string;
 }
 
-export interface StudentPrikazVM {
+export class StudentPrikazVM {
   studenti: StudentRow[];
   q?: any;
 }

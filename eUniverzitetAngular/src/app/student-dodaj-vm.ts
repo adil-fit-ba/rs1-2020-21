@@ -6,12 +6,12 @@
 
   export interface StudentDodajVM {
     opstine: Opstine[];
-    opstinaRodjenjaID: number;
+    opstinaRodjenjaID: string;
     id: number;
     ime: string;
     email: string;
     prezime: string;
-    opstinaPrebivalistaID: number;
+    opstinaPrebivalistaID: string;
     slikaStudentaNew?: any;
     slikaStudentaCurrent?: any;
   }
