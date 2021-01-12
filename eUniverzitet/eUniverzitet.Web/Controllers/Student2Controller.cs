@@ -43,7 +43,32 @@ namespace eUniverzitet.Web.Controllers
             _db.SaveChanges();
             return Ok();
         }
-        
+
+        [HttpPost]
+        public IActionResult SnimiSliku(StudentUploadSlikaVM x)
+        {
+            Student student= _db.Student.Include(s => s.Korisnik).Single(s => s.ID == x.id);
+
+            if (x.slikaStudentaNew != null)
+            {
+                string ekstenzija = Path.GetExtension(x.slikaStudentaNew.FileName);
+                string contentType = x.slikaStudentaNew.ContentType;
+
+                var filename = $"{Guid.NewGuid()}{ekstenzija}";
+                string folder = "wwwroot/uploads/";
+                bool exists = System.IO.Directory.Exists(folder);
+                if (!exists)
+                    System.IO.Directory.CreateDirectory(folder);
+
+                x.slikaStudentaNew.CopyTo(new FileStream(folder + filename, FileMode.Create));
+                student.SlikaStudenta = filename;
+            }
+
+            _db.SaveChanges(); // update Student
+
+            return Redirect("/Student");
+        }
+
 
         public IActionResult Obrisi(int StudentID)
         {
