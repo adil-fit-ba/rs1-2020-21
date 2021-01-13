@@ -1,117 +1,56 @@
-<h1>{{ trazi }}</h1>
 
 
 
+<button (click)="preuzmiPodatke()">Preuzmi podatke</button>
 
-<button class="btn btn-danger" (click)="preuzmiPodatke()">Preuzmi podatke</button>
+<p *ngIf="studentPrikaz==null">
+  Downloadujte podatke!
+</p>
 
-<input [(ngModel)]="trazi"/>
+<div *ngIf="studentPrikaz!=null">
+  Prvi student je {{studentPrikaz.studenti[0].ime}} <br>
+  Ukupno imamo: {{studentPrikaz.studenti.length}} <br>
+
+  Trazi <input [(ngModel)]="trazi">
+
+  <table class="table table-hover">
+    <thead>
+    <tr>
+      <th>Id</th>
+      <th>BrojIndeksa</th>
+      <th>email</th>
+      <th>Ime</th>
+      <th>prezIme</th>
+      <th>OpstinaPrebivalista</th>
+      <th>OpstinaRodjenja</th>
+      <th>Akcija</th>
+    </tr>
+    </thead>
+    <tbody>
 
 
-
-<button class="btn btn-danger"  (click)="testiraj()">Testiraj</button>
-
-<table class="table table-bordered" *ngIf="prikazVM != null">
-  <thead>
-  <tr>
-    <th>ID</th>
-    <th>BrojIndeksa</th>
-    <th>Email</th>
-    <th>Ime</th>
-    <th>Prezime</th>
-    <th>OpstinaPrebivalista</th>
-    <th>OpstinaRodjenja</th>
-    <th>Akcija</th>
-  </tr>
-  </thead>
-
-  <tbody>
-  <tr *ngFor="let d of getStudenti()" >
-
-      <td>{{d.id}}</td>
-      <td>{{d.brojIndeksa}}</td>
-      <td>{{d.email}}</td>
-      <td>{{d.ime}}</td>
-      <td>{{d.prezime}}</td>
-      <td>{{d.opstinaRodjenja}}</td>
-      <td>{{d.opstinaPrebivalista}}</td>
-
+    <tr *ngFor="let s of getStudenti()">
+      <td>{{ s.id}}</td>
+      <td>{{ s.brojIndeksa}}</td>
+      <td>{{ s.email}}</td>
+      <td>{{ s.ime}}</td>
+      <td>{{ s.prezime}}</td>
+      <td>{{ s.opstinaRodjenja}}</td>
+      <td>{{ s.opstinaPrebivalista}}</td>
       <td>
-        <button class="btn btn-primary" (click)="uredi(d)">Uredi</button>
-        <button class="btn btn-warning" (click)="obrisi(d)">Obrisi</button>
+        <button class="btn btn-warning" (click)="uredi(s)">Uredi</button>
+        <button class="btn btn-danger" (click)="obrisi(s)">Obrisi</button>
       </td>
+    </tr>
 
-  </tr>
-  </tbody>
-
-
-
-</table>
-
-
-<div *ngIf="editStudent != null" class="modal fade show" tabindex="-1" role="dialog"  style="padding-right: 17px; display: block;">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Podaci o studentu</h5>
-        <button type="button" class="close" (click)="editStudent=null" aria-label="Close">
-          <span aria-hidden="true" >×</span>
-        </button>
-      </div>
-      <div class="modal-body">
-
-        <div style="display: none">
-          <label>Student ID</label>
-          <input readonly [(ngModel)]="editStudent.id"  />
-        </div>
-
-        <div class="form-group">
-          <label>Email</label>
-          <input class="form-control" [(ngModel)]="editStudent.email"/>
-        </div>
-
-        <div class="form-group">
-          <label>Ime</label>
-          <input class="form-control" [(ngModel)]="editStudent.ime"/>
-        </div>
-
-        <div class="form-group">
-          <label>Prezime</label>
-          <input class="form-control" [(ngModel)]="editStudent.prezime" />
-        </div>
-
-
-        <div class="form-group">
-          <label>OpstinaRodjenjaID</label>
-          <select class="form-control" [(ngModel)]="editStudent.opstinaRodjenjaID">
-            <option *ngFor="let x of editStudent.opstine" [ngValue]="x.value">{{x.text}}</option>
-          </select>
-        </div>
-
-
-        <div class="form-group">
-          <label>OpstinaPrebivalistaID</label>
-          <select class="form-control" [(ngModel)]="editStudent.opstinaPrebivalistaID">
-            <option *ngFor="let x of editStudent.opstine" [ngValue]="x.value">{{x.text}}</option>
-          </select>
-        </div>
-
-        <div class="form-group">
-          <label>Trenutna slika studenta</label>
-          <img id="previewImg" style="height: 200px; display: block" src="{{getSlikaStudentaCurrent()}}" />
-        </div>
-
-        <div class="form-group">
-          <label>Odabei novu sliku studenta</label>
-          <input class="form-control" id="fileSlika" type="file" accept="image/*" (change)="generisiPreview()"/>
-        </div>
-
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" (click)="editStudent=null">Close</button>
-        <button type="button" (click)="snimi()" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+    </tbody>
+  </table>
 </div>
 
+
+
+<div *ngIf="editStudent != null">
+  ime <input [(ngModel)]="editStudent.ime"> <br>
+  prezime <input [(ngModel)]="editStudent.prezime"> <br>
+  <button (click)="snimi()">Snimi</button>
+</div>

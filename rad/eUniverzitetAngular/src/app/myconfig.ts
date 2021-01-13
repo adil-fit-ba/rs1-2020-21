@@ -1,7 +1,16 @@
+import {HttpHeaders} from '@angular/common/http';
 
-export class Myconfig{
-  //static webAppUrl:string="https://p2079.app.fit.ba";
-  static webAppUrl:string="http://localhost:4100";
+export class MyConfig{
+  static httpOpcije= {
+    headers:new HttpHeaders({
+      "Content-Type": "application/json",
+
+    })
+  };
+
+  //static adresaServer:string="https://p2079.app.fit.ba";
+  static adresaServer:string="http://localhost:4100";
+
 }
 
 

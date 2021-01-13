@@ -122,12 +122,17 @@ namespace eUniverzitet.Web.Controllers
             return Ok(s);
         }
 
-        public IActionResult Index(string q)
+        public IActionResult Index(string q, int currentPage=1, int itemsPerPage=100)
         {
-            //select * from Student 
-            List<StudentPrikazVM.Row> studenti = _db.Student
+            
+            IQueryable<Student> queryable = _db.Student
                 .Where(s => q == null || (s.Korisnik.Ime + " " + s.Korisnik.Prezime).StartsWith(q) ||
-                            (s.Korisnik.Prezime + " " + s.Korisnik.Ime).StartsWith(q))
+                            (s.Korisnik.Prezime + " " + s.Korisnik.Ime).StartsWith(q));
+
+
+            List<StudentPrikazVM.Row> studenti = queryable
+                .Skip((currentPage - 1) * itemsPerPage)
+                .Take(itemsPerPage)
                 .Select(x => new StudentPrikazVM.Row
                 {
                     id = x.ID,
@@ -143,6 +148,7 @@ namespace eUniverzitet.Web.Controllers
             StudentPrikazVM m = new StudentPrikazVM();
             m.studenti = studenti;
             m.q = q;
+            m.total = queryable.Count();
 
             return Ok(m);
         }

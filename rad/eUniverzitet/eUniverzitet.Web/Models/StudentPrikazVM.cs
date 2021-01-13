@@ -19,5 +19,6 @@ namespace eUniverzitet.Web.Models
 
         public List<Row> studenti { get; set; }
         public string q { get; set; }
+        public int total { get; set; }
     }
 }

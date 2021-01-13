@@ -1,94 +1,57 @@
 import {Component, OnInit} from '@angular/core';
-import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {Observable} from 'rxjs';
 import {StudentPrikazVM, StudentRow} from './student-prikaz-vm';
-import {StudentDodajVM} from './student-dodaj-vm';
-import {Myconfig} from './myconfig';
-
-
+import {HttpClient, HttpHeaders} from '@angular/common/http';
+import {MyConfig} from './MyConfig';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+export class AppComponent implements OnInit{
 
-export class AppComponent  {
-
-  title:string = 'euniverzitetApp';
-  prikazVM: StudentPrikazVM =null;
-  trazi: string="";
-  editStudent: StudentDodajVM=null;
-
-  constructor(private http: HttpClient) {
+  ngOnInit(): void {
+    //poziva se prilikom generisanja UI komponenti
   }
 
-  jelVidljivo():boolean
-  {
-    return this.trazi.length > 0;
+  studentPrikaz:StudentPrikazVM=null;
+  trazi: string='';
+  editStudent: StudentRow;
+  currentPage: number;
+
+  constructor(private http:HttpClient) {
   }
-
-
-
-  preuzmiPodatke(){
-    this.http.get<StudentPrikazVM>(Myconfig.webAppUrl+'/Student2/Index').subscribe((a) => {
-      this.prikazVM = a;
+  snimi() {
+    this.http.post(MyConfig.adresaServer + "/Student2/SnimiImePrezime", this.editStudent, MyConfig.httpOpcije).subscribe((result)=>{
+      alert("uspjesno snimljeno");
     });
-
   }
+  preuzmiPodatke() {
 
-  uredi(d: StudentRow) {
-    this.http.get<StudentDodajVM>(Myconfig.webAppUrl+'/Student2/Uredi?StudentID=' + d.id).subscribe((a) => {
-      this.editStudent = a;
+    this.http.get<StudentPrikazVM>(MyConfig.adresaServer+ "/Student2/Index").subscribe((result)=>{
+      this.studentPrikaz = result;
+
     });
   }
 
-  obrisi(d: StudentRow) {
-    let indexOf:number = this.prikazVM.studenti.indexOf(d);
-    this.prikazVM.studenti.splice(indexOf,1);
-  }
-
-  getStudenti():Array<StudentRow> {
-    return this.prikazVM.studenti.filter(x => x.opstinaRodjenja.startsWith(this.trazi));
-  }
-
-  getSlikaStudentaCurrent() {
-    return Myconfig.webAppUrl+ "/uploads/" +  this.editStudent.slikaStudentaCurrent;
-  }
-
-  httpOptions = {
-    headers: new HttpHeaders({ 'Content-Type': 'application/json' })
-  };
-
-  snimi()
-  {
-    this.http.post(Myconfig.webAppUrl + "/Student2/Snimi", this.editStudent, this.httpOptions).subscribe(d=>{
-        this.editStudent=null;//sakriva div za edivanje
+  obrisi(s: StudentRow) {
+    this.http.get(MyConfig.adresaServer+ "/Student2/Obrisi?StudentID="+s.id).subscribe((result)=>{
+      //  alert('obrisano ' + s.ime);
+      let indexOf = this.studentPrikaz.studenti.indexOf(s);
+      this.studentPrikaz.studenti.splice(indexOf, 1);
     });
   }
 
-  testiraj() {
-    this.prikazVM.studenti[0].prezime="Tanovic";
+  uredi(s: StudentRow) {
+    this.editStudent = s
+  }
+
+  getStudenti():StudentRow[] {
+    return this.studentPrikaz.studenti.filter(s=>s.ime.startsWith(this.trazi));
   }
 
 
-  generisiPreview() {
-    // @ts-ignore
-    let file = document.getElementById("fileSlika").files[0];
+  changePage($event: number) {
 
-    if (file)
-    {
-      var reader = new FileReader();
-
-      //let student = this.editStudent;
-      reader.onload = function ()
-      {
-        let s = reader.result.toString();
-        document.getElementById("previewImg").setAttribute("src", s);
-       // student.slikaStudentaNew = s;
-      }
-
-      reader.readAsDataURL(file);
-    }
   }
 }
 
