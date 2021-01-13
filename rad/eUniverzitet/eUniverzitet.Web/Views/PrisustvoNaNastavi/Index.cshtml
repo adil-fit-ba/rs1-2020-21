@@ -1,0 +1,42 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?Linkid=397860
+*@
+
+@{
+    Layout = null;
+}
+@model PrisustvoNaNastaviPrikazVM
+ime studenta 
+@Model.ImeStudenta
+
+
+<h1>Prisustvo na nastavi</h1>
+
+<table class="table table-bordered">
+    <thead>
+    <tr>
+        <th>Predmet</th>
+        <th>Datum</th>
+        <th>Prisutan</th>
+        <th>Komentar</th>
+        <td>Akcija</td>
+    </tr>
+    </thead>
+    
+    <tbody>
+    @foreach (var x in Model.Zapisi)
+    {
+        <tr>
+            <td>@x.Predmet</td>
+            <td>@x.Datum</td>
+            <td>@(x.Prisutan?"DA":"NE")</td>
+            <td>@x.Komentar</td>
+            <td>
+                <button onclick="PrisustvoNaNastaviUredi(@x.PrisustvoNaNastaviID)">Uredi</button>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+

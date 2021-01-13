@@ -1,0 +1,80 @@
+
+@model StudentDodajVM
+@{
+
+    //var opstine = (List<Opstina>)ViewData["opstine"];
+    //var s = (StudentDodajVM) ViewData["student"];
+}
+
+ 
+<form asp-action="Snimi" asp-controller="Student"  enctype="multipart/form-data">
+
+    <div style="display: none">
+        <label>Student id</label>
+        @*<input name="studentid" readonly value="@Model.id"/>*@
+        <input readonly asp-for="id" />
+    </div>
+
+    <div class="form-group">
+        <label>email</label>
+        <input class="form-control" asp-for="email" />
+    </div>
+
+    <div class="form-group">
+        <label>ime</label>
+        @*<input name="ime" value="@Model.ime"/>*@
+        <input class="form-control" asp-for="ime" />
+    </div>
+
+    <div class="form-group">
+        <label>prezime</label>
+        <input class="form-control" asp-for="prezime" />
+    </div>
+
+
+    <div class="form-group">
+        <label>opstinaRodjenjaid</label>
+        <select class="form-control" asp-for="opstinaRodjenjaID" asp-items="Model.opstine">
+        </select>
+    </div>
+
+
+    <div class="form-group">
+        <label>opstinaPrebivalistaid</label>
+        <select class="form-control" asp-for="opstinaPrebivalistaID" asp-items="Model.opstine">
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label>Trenutna slika studenta</label>
+        <img id="previewImg" style="height: 200px; display: block" src="/uploads/@Model.slikaStudentaCurrent" />
+    </div>
+    
+    <div class="form-group">
+        <label>Odabei novu sliku studenta</label>
+        <input class="form-control" asp-for="slikaStudentaNew" accept="image/*" onchange="generisiPreview(this)"/>
+    </div>
+
+    <input type="submit" class="form-control" value="Snimi" />
+
+</form>
+
+<script>
+
+    function generisiPreview(input) {
+        var file = input.files[0];
+ 
+        if (file)
+        {
+            var reader = new FileReader();
+ 
+            reader.onload = function ()
+            {
+                $("#previewImg").attr("src", reader.result);
+            }
+ 
+            reader.readAsDataURL(file);
+        }
+    }
+
+</script>

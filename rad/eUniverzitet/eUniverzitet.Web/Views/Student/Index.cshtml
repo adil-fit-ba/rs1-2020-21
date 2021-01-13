@@ -1,0 +1,144 @@
+﻿@using eUniverzitet.Web.Models
+@model eUniverzitet.Web.Models.StudentPrikazVM
+
+@{
+    ViewData["Title"] = "Prikaz";
+ //  Layout = null;
+}
+
+
+<h1>Prikaz</h1>
+
+<button type="button" onclick="window.location='/Student/Uredi'" class="btn btn-primary">Dodaj JS</button>
+<a href="/Student/Uredi" class="btn btn-primary">Dodaj HTML</a>
+
+<form>
+    <input name="q" value="@Model.q"/>
+    <input type="submit" value="Trazi" />
+</form>
+
+<a asp-controller="Report1" asp-action="Index">Izvjestaj PDF</a>
+
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>brojIndeksa</th>
+        <th>email</th>
+        <th>ime</th>
+        <th>prezime</th>
+        <th>opstinaPrebivalista</th>
+        <th>opstinaRodjenja</th>
+        <th>Akcija</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    @foreach (StudentPrikazVM.Row s in Model.studenti)
+    {
+        <tr>
+            <td>@s.id</td>
+            <td>@s.brojIndeksa</td>
+            <td>@s.email</td>
+            <td>@s.ime</td>
+            <td>@s.prezime</td>
+            <td>@s.opstinaRodjenja</td>
+            <td>@s.opstinaPrebivalista</td>
+            <td>
+                <a href="/Student/Uredi?Studentid=@s.id">Uredi</a>
+                <a href="/Student/Obrisi?Studentid=@s.id">Obrisi</a>
+                <button onclick="OcjenePrikaz(@s.id)">Ocjene</button>
+                <button onclick="PrisustvoNaNastaviPrikaz(@s.id)">PrisutvoNaNastvi</button>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+
+<div id="ajaxPrikaz" style="border: 1px solid red">
+    Aaa test
+</div>
+
+
+<script>
+    function PrisustvoNaNastaviPrikaz(StudentID) {
+
+        var url = "/PrisustvoNaNastavi/?Studentid=" + StudentID;
+
+        $.get(url, function(d) {
+            $("#ajaxPrikaz").html(d);
+        });
+    }
+
+    function PrisustvoNaNastaviUredi(PrisustvoNaNastaviID) {
+
+        var url = "/PrisustvoNaNastavi/Uredi?PrisustvoNaNastaviid=" + PrisustvoNaNastaviID;
+
+        $.get(url, function(d) {
+            $("#ajaxPrikaz").html(d);
+        });
+    }
+
+
+    function PrisustvoNaNastaviSnimi()
+    {
+
+        var form = $("#PrisustvoNaNastaviForma");
+        var url = "/PrisustvoNaNastavi/Snimi";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: form.serialize(),
+            success: function (data) {
+                $("#ajaxPrikaz").html(data);
+                
+            }
+        });
+      //  alert("Uspjeno snimljeno");
+    }
+
+    function OcjenePrikaz(StudentID) {
+
+        var url = "/Ocjene/?Studentid=" + StudentID;
+      
+        var zahtjev = new XMLHttpRequest();
+        zahtjev.onload = function () {
+            if (zahtjev.status === 200) {
+                document.getElementById("ajaxPrikaz").innerHTML =  zahtjev.responseText;
+            } else {
+
+            }
+        };
+
+        zahtjev.open("GET", url, true);
+        zahtjev.send();
+    }
+
+
+    function OcjeneUredi(OcjenaID) {
+
+        var url = "/Ocjene/Uredi?Ocjenaid=" + OcjenaID;
+
+        $.get(url, function(d) {
+
+            $("#ajaxPrikaz").html(d);
+        });
+    }
+
+
+    function OcjeneSnimi() {
+        var form = $("#OcjenaForma");
+        var url = "/Ocjene/Snimi";
+        $.ajax({
+            type: "POST",
+            url: url,
+            data: form.serialize(),
+            success: function (data) {
+                $("#ajaxPrikaz").html(data);
+                porukaWarning("Uspješno evidentirana ocjena");
+            }
+        });
+      //  alert("Uspjeno snimljeno");
+    }
+</script>
+
