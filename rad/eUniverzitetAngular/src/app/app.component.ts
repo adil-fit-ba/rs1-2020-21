@@ -7,11 +7,9 @@ import {MyConfig} from './MyConfig';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit{
+export class AppComponent {
 
-  ngOnInit(): void {
-    //poziva se prilikom generisanja UI komponenti
-  }
+
 
   studentPrikaz:StudentPrikazVM=null;
   trazi: string='';
