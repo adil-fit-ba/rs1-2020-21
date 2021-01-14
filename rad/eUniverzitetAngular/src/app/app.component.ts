@@ -14,20 +14,49 @@ export class AppComponent {
   studentPrikaz:StudentPrikazVM=null;
   trazi: string='';
   editStudent: StudentRow;
-  currentPage: number;
+
+  currentPage: number=1;
+  itemsPerPage:number=10;
+  pageNumbersArray():number[]{
+    let result=[];
+    if (this.studentPrikaz != null) {
+      for (let i = 0; i < this.totalPages(); i++)
+        result.push(i+1);
+    }
+    return result;
+  }
+
+  private totalPages() {
+    return this.studentPrikaz.total / this.itemsPerPage;
+  }
+
+  goToPage(p: number) {
+    this.currentPage = p;
+    this.preuzmiPodatke();
+  }
+
+  goPrev() {
+    if (this.currentPage>1)
+      this.currentPage--;
+
+    this.preuzmiPodatke();
+  }
+
+  goNext() {
+    if (this.currentPage<this.totalPages())
+      this.currentPage++;
+
+    this.preuzmiPodatke();
+  }
 
   constructor(private http:HttpClient) {
+
   }
-  snimi() {
-    this.http.post(MyConfig.adresaServer + "/Student2/SnimiImePrezime", this.editStudent, MyConfig.httpOpcije).subscribe((result)=>{
-      alert("uspjesno snimljeno");
-    });
-  }
+
   preuzmiPodatke() {
 
-    this.http.get<StudentPrikazVM>(MyConfig.adresaServer+ "/Student2/Index").subscribe((result)=>{
+    this.http.get<StudentPrikazVM>(MyConfig.adresaServer+ "/Student2/Index?currentPage="+this.currentPage+"&itemsPerPage="+this.itemsPerPage).subscribe((result)=>{
       this.studentPrikaz = result;
-
     });
   }
 
@@ -47,9 +76,26 @@ export class AppComponent {
     return this.studentPrikaz.studenti.filter(s=>s.ime.startsWith(this.trazi));
   }
 
+  generisiPreview() {
+    // @ts-ignore
+    let file = document.getElementById("fileSlika").files[0];
 
-  changePage($event: number) {
+    if (file)
+    {
+      var reader = new FileReader();
 
+      //let student = this.editStudent;
+      reader.onload = function ()
+      {
+        let s = reader.result.toString();
+        document.getElementById("previewImg").setAttribute("src", s);
+        // student.slikaStudentaNew = s;
+      }
+
+      reader.readAsDataURL(file);
+    }
   }
+
+
 }
 

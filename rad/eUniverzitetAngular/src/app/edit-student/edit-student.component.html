@@ -1,0 +1,8 @@
+<p>edit-student works!</p>
+
+
+<div *ngIf="editStudent != null">
+  ime <input [(ngModel)]="editStudent.ime"> <br>
+  prezime <input [(ngModel)]="editStudent.prezime"> <br>
+  <button (click)="snimi()">Snimi</button>
+</div>

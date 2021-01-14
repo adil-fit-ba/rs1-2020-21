@@ -9,7 +9,8 @@
 
 <div *ngIf="studentPrikaz!=null">
   Prvi student je {{studentPrikaz.studenti[0].ime}} <br>
-  Ukupno imamo: {{studentPrikaz.studenti.length}} <br>
+  Na ovom pageu: {{studentPrikaz.studenti.length}} <br>
+  Ukupno imamo: {{studentPrikaz.total}} <br>
 
   Trazi <input [(ngModel)]="trazi">
 
@@ -49,8 +50,13 @@
 
 
 
-<div *ngIf="editStudent != null">
-  ime <input [(ngModel)]="editStudent.ime"> <br>
-  prezime <input [(ngModel)]="editStudent.prezime"> <br>
-  <button (click)="snimi()">Snimi</button>
-</div>
+
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><Button class="page-link" (click)="goPrev()" >Previous</Button></li>
+    <li *ngFor="let p of pageNumbersArray()" class="page-item" [ngClass]="p == currentPage?'active':''" (click)="goToPage(p)"><Button class="page-link" >{{p}}</Button></li>
+    <li class="page-item"><Button class="page-link" (click)="goNext()">Next</Button></li>
+  </ul>
+</nav>
+
