@@ -1,5 +1,7 @@
 
 
+items per page
+<input [(ngModel)]="itemsPerPage" ><br>
 
 <button (click)="preuzmiPodatke()">Preuzmi podatke</button>
 
@@ -50,13 +52,4 @@
 
 
 
-
-
-<nav aria-label="Page navigation example">
-  <ul class="pagination">
-    <li class="page-item"><Button class="page-link" (click)="goPrev()" >Previous</Button></li>
-    <li *ngFor="let p of pageNumbersArray()" class="page-item" [ngClass]="p == currentPage?'active':''" (click)="goToPage(p)"><Button class="page-link" >{{p}}</Button></li>
-    <li class="page-item"><Button class="page-link" (click)="goNext()">Next</Button></li>
-  </ul>
-</nav>
-
+<app-mypaging [x]="this"></app-mypaging>

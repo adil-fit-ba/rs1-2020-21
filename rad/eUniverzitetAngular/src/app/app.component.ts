@@ -2,59 +2,24 @@ import {Component, OnInit} from '@angular/core';
 import {StudentPrikazVM, StudentRow} from './student-prikaz-vm';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {MyConfig} from './MyConfig';
+import {PagingInfo} from './pagingInfo';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent {
-
-
+export class AppComponent extends PagingInfo{
 
   studentPrikaz:StudentPrikazVM=null;
   trazi: string='';
   editStudent: StudentRow;
 
-  currentPage: number=1;
-  itemsPerPage:number=10;
-  pageNumbersArray():number[]{
-    let result=[];
-    if (this.studentPrikaz != null) {
-      for (let i = 0; i < this.totalPages(); i++)
-        result.push(i+1);
-    }
-    return result;
-  }
-
-  private totalPages() {
-    return this.studentPrikaz.total / this.itemsPerPage;
-  }
-
-  goToPage(p: number) {
-    this.currentPage = p;
-    this.preuzmiPodatke();
-  }
-
-  goPrev() {
-    if (this.currentPage>1)
-      this.currentPage--;
-
-    this.preuzmiPodatke();
-  }
-
-  goNext() {
-    if (this.currentPage<this.totalPages())
-      this.currentPage++;
-
-    this.preuzmiPodatke();
-  }
 
   constructor(private http:HttpClient) {
-
+    super();
   }
 
   preuzmiPodatke() {
-
     this.http.get<StudentPrikazVM>(MyConfig.adresaServer+ "/Student2/Index?currentPage="+this.currentPage+"&itemsPerPage="+this.itemsPerPage).subscribe((result)=>{
       this.studentPrikaz = result;
     });
@@ -97,5 +62,16 @@ export class AppComponent {
   }
 
 
+
+  getTotalItems(): number {
+    if (this.studentPrikaz == null)
+      return 0;
+
+    return this.studentPrikaz.total;
+  }
+
+
 }
+
+
 

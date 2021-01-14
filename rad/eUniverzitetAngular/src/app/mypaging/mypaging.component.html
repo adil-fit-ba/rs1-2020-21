@@ -1,0 +1,8 @@
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+    <li class="page-item"><Button class="page-link" (click)="x.goPrev()" >Previous</Button></li>
+    <li *ngFor="let p of x.pageNumbersArray()" class="page-item" [ngClass]="p == x.currentPage?'active':''" (click)="x.goToPage(p)"><Button class="page-link" >{{p}}</Button></li>
+    <li class="page-item"><Button class="page-link" (click)="x.goNext()">Next</Button></li>
+  </ul>
+</nav>
+
