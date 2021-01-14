@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {StudentRow} from '../student-prikaz-vm';
-import {MyConfig} from '../MyConfig';
+import {StudentRow} from '../../student-prikaz-vm';
+import {MyConfig} from '../../MyConfig';
 import {HttpClient} from '@angular/common/http';
 
 @Component({
