@@ -47,7 +47,7 @@ namespace eUniverzitet.Web.Controllers
 
 
             ReportResult result = _localReport.Execute(RenderType.Pdf, parameters: parameters);
-            return File(result.MainStream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet");
+            return File(result.MainStream, "application/pdf");
 
         }
     }

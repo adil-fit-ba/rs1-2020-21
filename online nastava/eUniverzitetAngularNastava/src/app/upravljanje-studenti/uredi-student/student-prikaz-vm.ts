@@ -12,4 +12,5 @@ export class StudentRow {
 export class StudentPrikazVM {
   studenti: StudentRow[];
   q?: any;
+  total: number;
 }

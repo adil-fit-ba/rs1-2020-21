@@ -4,6 +4,12 @@ namespace eUniverzitet.Web.Models
 {
     public class StudentPrikazVM
     {
+        public int total
+        {
+            get;
+            set;
+        }
+
         public class Row
         {
          

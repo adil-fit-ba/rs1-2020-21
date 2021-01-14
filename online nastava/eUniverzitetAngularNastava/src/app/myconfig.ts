@@ -8,7 +8,7 @@ export class MyConfig{
     })
   };
 
-  //static adresaServer:string="https://p2079.app.fit.ba";
+ // static adresaServer:string="https://api.p2079.app.fit.ba";
   static adresaServer:string="http://localhost:4100";
 
 }
