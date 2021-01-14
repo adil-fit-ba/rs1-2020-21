@@ -2,25 +2,37 @@ import {Component, OnInit} from '@angular/core';
 import {StudentPrikazVM, StudentRow} from './student-prikaz-vm';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
 import {MyConfig} from './MyConfig';
-import {PagingInfo} from './pagingInfo';
+import {PagingInfo} from './mypaging/pagingInfo';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
-export class AppComponent extends PagingInfo{
+export class AppComponent{
 
   studentPrikaz:StudentPrikazVM=null;
   trazi: string='';
   editStudent: StudentRow;
 
 
-  constructor(private http:HttpClient) {
-    super();
+  pagingInfo:PagingInfo;
+
+  constructor(private http:HttpClient)
+  {
+    let x = this;
+    this.pagingInfo = new class extends PagingInfo{
+      getTotalItems(): number {
+        return x.studentPrikaz==null?0:x.studentPrikaz.total;
+      }
+
+      preuzmiPodatke() {
+        x.preuzmiPodatke();
+      }
+    };
   }
 
   preuzmiPodatke() {
-    this.http.get<StudentPrikazVM>(MyConfig.adresaServer+ "/Student2/Index?currentPage="+this.currentPage+"&itemsPerPage="+this.itemsPerPage).subscribe((result)=>{
+    this.http.get<StudentPrikazVM>(MyConfig.adresaServer+ "/Student2/Index?currentPage="+this.pagingInfo.currentPage+"&itemsPerPage="+this.pagingInfo.itemsPerPage).subscribe((result)=>{
       this.studentPrikaz = result;
     });
   }

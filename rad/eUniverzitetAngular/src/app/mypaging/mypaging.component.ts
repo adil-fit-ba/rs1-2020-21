@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {PagingInfo} from '../pagingInfo';
+import {PagingInfo} from './pagingInfo';
 
 @Component({
   selector: 'app-mypaging',

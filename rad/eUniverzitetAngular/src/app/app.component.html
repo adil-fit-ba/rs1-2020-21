@@ -1,7 +1,7 @@
 
 
 items per page
-<input [(ngModel)]="itemsPerPage" ><br>
+<input [(ngModel)]="pagingInfo.itemsPerPage" ><br>
 
 <button (click)="preuzmiPodatke()">Preuzmi podatke</button>
 
@@ -52,4 +52,4 @@ items per page
 
 
 
-<app-mypaging [x]="this"></app-mypaging>
+<app-mypaging [x]="pagingInfo"></app-mypaging>
