@@ -19,22 +19,22 @@ export abstract class PagingInfo
 
   goToPage(p: number) {
     this.currentPage = p;
-    this.preuzmiPodatke();
+    this.afterClicked();
   }
 
   goPrev() {
     if (this.currentPage>1)
       this.currentPage--;
 
-    this.preuzmiPodatke();
+    this.afterClicked();
   }
 
   goNext() {
     if (this.currentPage<this.totalPages())
       this.currentPage++;
 
-    this.preuzmiPodatke();
+    this.afterClicked();
   }
 
-  public abstract preuzmiPodatke() ;
+  public abstract afterClicked() ;
 }

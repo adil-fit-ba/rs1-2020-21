@@ -26,7 +26,7 @@ export class StudentiComponent implements OnInit {
         return x.studentPrikaz==null?0:x.studentPrikaz.total;
       }
 
-      preuzmiPodatke() {
+      afterClicked() {
         x.preuzmiPodatke();
       }
     };

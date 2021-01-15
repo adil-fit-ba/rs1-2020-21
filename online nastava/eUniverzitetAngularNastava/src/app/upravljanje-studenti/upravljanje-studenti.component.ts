@@ -57,4 +57,22 @@ export class UpravljanjeStudentiComponent implements OnInit {
     this.currentPage=1;
     this.preuzmiPodatke();
   }
+
+
+  public pageNumbersArray():number[]{
+    let result=[];
+
+    for (let i = 0; i < this.totalPages(); i++)
+      result.push(i+1);
+    return result;
+  }
+
+  goToPage(p: number) {
+      this.currentPage = p;
+      this.preuzmiPodatke();
+  }
+
+  private totalPages() {
+    return this.studentPrikaz.total / this.pageSize ;
+  }
 }
